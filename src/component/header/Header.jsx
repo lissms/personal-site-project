@@ -1,5 +1,19 @@
 import React from "react";
-import { HeaderContainer, Logo, NavLogoContainer, Ul, Li, Nav } from "./header.styled";
+import {
+  HeaderContainer,
+  Logo,
+  NavLogoContainer,
+  Ul,
+  Li,
+  Nav,
+  LiContact,
+  ContainerImgH1,
+  PersonalImage,
+  H1,
+  Span,
+  Mouse,
+  Mousebutton,
+} from "./header.styled";
 import logo from "./../../images/logo.svg";
 
 function Header(props) {
@@ -13,22 +27,22 @@ function Header(props) {
             <Li>Skills</Li>
             <Li>My works</Li>
             <Li>About me</Li>
-            <Li>Contact</Li>
+            <LiContact>Contact</LiContact>
           </Ul>
         </Nav>
       </NavLogoContainer>
 
-      <div className="Container__image-title">
-        <img src="" alt="my personal image" />
-        <div className="title">
-          <h1>
-            <span>Fronted</span> developer
-          </h1>
-        </div>
-      </div>
-      <div className="mouse-decorative">
-        <div className="decorative"></div>
-      </div>
+      <ContainerImgH1>
+        <PersonalImage title="My personal image"></PersonalImage>
+
+        <H1>
+          <Span>Fronted</Span> developer
+        </H1>
+      </ContainerImgH1>
+
+      <Mouse>
+        <Mousebutton />
+      </Mouse>
     </HeaderContainer>
   );
 }
