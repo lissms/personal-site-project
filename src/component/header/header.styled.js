@@ -4,6 +4,7 @@ import personalImage from "./../../images/20201107_113153.jpg";
 export const HeaderContainer = styled.header`
   background: linear-gradient(229.32deg, rgba(150, 237, 163, 0.78) 45.51%, rgba(7, 60, 180, 0.78) 118.95%);
   height: 730px;
+  margin: 0;
 `;
 export const Logo = styled.img`
   width: 142px;
