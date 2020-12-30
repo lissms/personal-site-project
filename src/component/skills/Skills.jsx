@@ -1,5 +1,5 @@
 import React from "react";
-import { SkillsDiv, SkillsH2, ContainerSkills } from "./skills.styled";
+import { SkillsDiv, SkillsH2, ContainerSkills, ShadowInTheEnd } from "./skills.styled";
 import TechnologiesList from "./TechnologiesList";
 
 function Skills(props) {
@@ -10,6 +10,7 @@ function Skills(props) {
       </SkillsDiv>
       <TechnologiesList title="languages" data={props.data} />
       {/*  <TechnologiesList title="libraries" /> */}
+      <ShadowInTheEnd />
     </ContainerSkills>
   );
 }

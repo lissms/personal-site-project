@@ -26,3 +26,11 @@ export const ContainerSkills = styled.div`
   margin: 0px;
   padding: 50px;
 `;
+export const ShadowInTheEnd = styled.div`
+  position: absolute;
+  right: 0;
+  background: linear-gradient(270deg, #ffffff 72.16%, rgba(255, 255, 255, 0) 100%);
+  width: 173px;
+  height: 655px;
+  z-index: 1;
+`;

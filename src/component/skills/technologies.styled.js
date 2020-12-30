@@ -14,6 +14,13 @@ export const TechnologieContariner = styled.div`
 
 export const TechnologieName = styled.p`
   color: #76f09b;
+  font-family: Gugi;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 25px;
+  letter-spacing: 0.14em;
+  color: #76f09b;
 `;
 export const TechnologieImage = styled.div`
   height: 125px;
