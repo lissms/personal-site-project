@@ -8,6 +8,7 @@ import reactLogo from "../../src/images/react.jpg";
 import reactGreenLogo from "../../src/images/react-green.jpg";
 import sassLogo from "../../src/images/sass.jpg";
 import sassGreenLogo from "../../src/images/sass-green.jpg";
+import habana from "../../src/images/habana.jpg";
 
 const languages = [
   {
@@ -63,7 +64,35 @@ const libraries = [
     id: "redux2",
   },
 ];
+const aboutMeData = [
+  {
+    name: "Cuba",
+    img: habana,
+  },
+  {
+    name: "University",
+    img: "imagen",
+  },
+  {
+    name: "Recherche",
+    img: "imagen",
+  },
+  {
+    name: "Lyon",
+    img: "imagen",
+  },
+  {
+    name: "Madrid",
+    img: "imagen",
+  },
+  {
+    name: "Adalab",
+    img: "imagen",
+  },
+];
+
 export default {
   languages: languages,
   libraries: libraries,
+  aboutMeData: aboutMeData,
 };
