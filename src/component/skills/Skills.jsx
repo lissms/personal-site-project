@@ -1,14 +1,20 @@
-/* import React from "react";
-import {
-  
-  } from "./skills.styled";
-
+import React from "react";
+import { SkillsDiv, SkillsH2, ContainerSkills, ShadowInTheEnd, TecnologiesContainer } from "./skills.styled";
+import TechnologiesList from "./TechnologiesList";
 
 function Skills(props) {
-  return <div></div>;
+  return (
+    <ContainerSkills>
+      <SkillsDiv>
+        <SkillsH2>Skills</SkillsH2>
+      </SkillsDiv>
+      <TecnologiesContainer>
+        <TechnologiesList title="languages" data={props.data.languages} />
+        <TechnologiesList title="libraries" data={props.data.libraries} />
+      </TecnologiesContainer>
+      <ShadowInTheEnd />
+    </ContainerSkills>
+  );
 }
 
-
-
 export default Skills;
- */
