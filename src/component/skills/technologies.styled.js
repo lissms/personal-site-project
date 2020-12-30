@@ -22,6 +22,14 @@ export const TechnologieName = styled.p`
   letter-spacing: 0.14em;
   color: #76f09b;
 `;
+export const TechnologieLevel = styled.p`
+  font-family: Gugi;
+  font-size: 12px;
+  line-height: 15px;
+  letter-spacing: 0.14em;
+  color: #1c2ed7;
+`;
+
 export const TechnologieImage = styled.div`
   height: 125px;
   width: 125px;

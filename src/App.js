@@ -1,15 +1,15 @@
 import React from "react";
 import Header from "./component/header/Header";
 import Skills from "./component/skills/Skills";
-import languages from "./data/data";
+import data from "./data/data";
 
 function App() {
   return (
     <>
       <Header />
-      <Skills data={languages} />
+      <Skills data={data} />
     </>
   );
 }
-console.log("data.languges", languages);
+console.log("data.languges", data);
 export default App;

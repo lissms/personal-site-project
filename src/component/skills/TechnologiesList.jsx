@@ -1,7 +1,7 @@
 import React from "react";
 import PropTypes from "prop-types";
 import Tecnologies from "./Tecnologies";
-import { TitleLanguages, UL, DivContainerLang } from "./technologyList.styled";
+import { TitleTechnologies, UL } from "./technologyList.styled";
 
 function TechnologiesList(props) {
   const languages = props.data.map((language) => {
@@ -18,10 +18,10 @@ function TechnologiesList(props) {
     );
   });
   return (
-    <DivContainerLang>
-      <TitleLanguages>{props.title}</TitleLanguages>
+    <>
+      <TitleTechnologies>{props.title}</TitleTechnologies>
       <UL>{languages}</UL>
-    </DivContainerLang>
+    </>
   );
 }
 

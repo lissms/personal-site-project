@@ -1,10 +1,6 @@
 import styled from "styled-components";
 
-export const DivContainerLang = styled.div`
-  margin-left: 147px;
-`;
-
-export const TitleLanguages = styled.p`
+export const TitleTechnologies = styled.p`
   color: #073cb4;
   font-family: Gugi;
   font-size: 36px;
@@ -16,7 +12,7 @@ export const TitleLanguages = styled.p`
 export const UL = styled.ul`
   list-style: none;
   display: flex;
-  justify-content: center;
+  justify-content: flex-start;
   padding: 0;
 
   & li {

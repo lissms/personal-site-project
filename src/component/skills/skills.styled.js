@@ -3,7 +3,7 @@ import styled from "styled-components";
 export const SkillsDiv = styled.div`
   width: 698px;
   height: 163px;
-  border-bottom: dotted #073cb4 5px;
+
   transform: rotate(-90deg);
   position: absolute;
   top: 309px;
@@ -33,4 +33,13 @@ export const ShadowInTheEnd = styled.div`
   width: 173px;
   height: 655px;
   z-index: 1;
+`;
+
+export const TecnologiesContainer = styled.div`
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  padding-left: 36px;
+  border-left: dotted #073cb4 5px;
+  margin-left: 100px;
 `;

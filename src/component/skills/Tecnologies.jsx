@@ -1,6 +1,6 @@
 import React from "react";
 import PropTypes from "prop-types";
-import { TechnologieContariner, TechnologieName, TechnologieImage } from "./technologies.styled";
+import { TechnologieContariner, TechnologieName, TechnologieImage, TechnologieLevel } from "./technologies.styled";
 
 function Tecnologies(props) {
   return (
@@ -10,6 +10,7 @@ function Tecnologies(props) {
         imgeTechnologie={props.imgeTechnologie}
         greenImageTechnologie={props.greenImageTechnologie}
       ></TechnologieImage>
+      <TechnologieLevel>{props.level}</TechnologieLevel>
     </TechnologieContariner>
   );
 }
