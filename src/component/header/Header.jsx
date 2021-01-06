@@ -13,6 +13,7 @@ import {
   Span,
   Mouse,
   Mousebutton,
+  ContainerH1,
 } from "./header.styled";
 import logo from "./../../images/logo.svg";
 
@@ -34,10 +35,11 @@ function Header(props) {
 
       <ContainerImgH1>
         <PersonalImage title="My personal image"></PersonalImage>
-
-        <H1>
-          <Span>Fronted</Span> developer
-        </H1>
+        <ContainerH1>
+          <H1>
+            <Span>Fronted</Span> developer
+          </H1>
+        </ContainerH1>
       </ContainerImgH1>
 
       <Mouse>
