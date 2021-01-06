@@ -29,9 +29,10 @@ export const ContainerSkills = styled.div`
 export const ShadowInTheEnd = styled.div`
   position: absolute;
   right: 0;
+  top: 0;
   background: linear-gradient(270deg, #ffffff 72.16%, rgba(255, 255, 255, 0) 100%);
-  width: 173px;
-  height: 655px;
+  width: 140px;
+  height: 820px;
   z-index: 1;
 `;
 
@@ -42,4 +43,5 @@ export const TecnologiesContainer = styled.div`
   padding-left: 36px;
   border-left: dotted #073cb4 5px;
   margin-left: 100px;
+  overflow: hidden;
 `;
