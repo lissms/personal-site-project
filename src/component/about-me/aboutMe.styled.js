@@ -6,6 +6,7 @@ export const ItemH2 = styled.h2`
   line-height: 59px;
   letter-spacing: 0.14em;
   color: #ffffff;
+  text-transform: uppercase;
 `;
 
 export const ContainerItemH2 = styled.div`

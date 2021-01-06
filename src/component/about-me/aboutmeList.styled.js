@@ -6,7 +6,7 @@ export const UL = styled.ul`
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   grid-template-rows: 1fr 1fr;
-  grid-template-areas: "Cuba University Recherche" "Lyon Madrid Adalab;";
+  grid-template-areas: "Cuba University Recherche" "Lyon Madrid Adalab";
 `;
 
 export const Li = styled.li`
