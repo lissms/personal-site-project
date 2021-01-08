@@ -5,6 +5,7 @@
   justify-content: center;
   height: 100vh;
   font-family: "Gugi", cursive;
+  padding: 20px;
 }
 
 h1 {
@@ -50,5 +51,6 @@ h2 {
 }
 
 .App-logo {
+  width: 98%;
   height: 40vmin;
 }
