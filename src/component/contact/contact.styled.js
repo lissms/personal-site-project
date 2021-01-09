@@ -104,3 +104,72 @@ export const Form = styled.form`
   justify-content: space-around;
   align-items: center;
 `;
+export const NameEmail = styled.input`
+  width: 388px;
+  height: 48px;
+  background: #f4f4f4;
+  border: 2px solid #21687c;
+  box-sizing: border-box;
+  border-radius: 4px;
+  padding: 25px;
+  font-family: Gugi;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 17px;
+  line-height: 21px;
+  &::-webkit-input-placeholder {
+    color: #00c9b7;
+  }
+
+  &:-moz-placeholder {
+    color: #00c9b7;
+  }
+
+  &::-moz-placeholder {
+    color: #00c9b7;
+  }
+
+  &:-ms-input-placeholder {
+    color: #00c9b7;
+  }
+`;
+export const Messsage = styled.textarea`
+  width: 388px;
+  height: 267px;
+  background: #f4f4f4;
+  border: 2px solid #21687c;
+  box-sizing: border-box;
+  border-radius: 4px;
+  font-family: Gugi;
+  font-size: 17px;
+  line-height: 21px;
+  padding: 25px;
+
+  &::-webkit-input-placeholder {
+    color: #00c9b7;
+  }
+
+  &:-moz-placeholder {
+    color: #00c9b7;
+  }
+
+  &::-moz-placeholder {
+    color: #00c9b7;
+  }
+
+  &:-ms-input-placeholder {
+    color: #00c9b7;
+  }
+`;
+export const Btn = styled.input`
+  width: 388px;
+  height: 48px;
+  background: #76f09b;
+  border-radius: 4px;
+  font-family: Gugi;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 17px;
+  line-height: 21px;
+  color: #21687c;
+`;

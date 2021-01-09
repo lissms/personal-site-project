@@ -15,6 +15,9 @@ import {
   LinkProfile,
   LinkedinLogo,
   Form,
+  NameEmail,
+  Messsage,
+  Btn,
 } from "./contact.styled";
 import linkedinLogo from "../../images/Linkedin-Logo.png";
 
@@ -37,10 +40,10 @@ function Contact(props) {
         </ContainerLinkdn>
       </ProfileLink>
       <Form action="">
-        <input type="text" name="name" id="name" placeholder="Your Name" />
-        <input type="email" name="e-mail" id="e-mail" placeholder="Your e-mail" />
-        <textarea name="" id="" cols="30" rows="10" placeholder="A message for me"></textarea>
-        <input type="button" value="Send Message" />
+        <NameEmail type="text" name="name" id="name" placeholder="Your Name" />
+        <NameEmail type="email" name="e-mail" id="e-mail" placeholder="Your e-mail" />
+        <Messsage name="" id="" cols="30" rows="10" placeholder="A message for me"></Messsage>
+        <Btn type="button" value="Send Message" />
       </Form>
     </ContainerSection>
   );
