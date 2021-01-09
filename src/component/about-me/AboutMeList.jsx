@@ -7,7 +7,7 @@ function AboutMeList(props) {
   const aboutMe = props.data.map((items, i) => {
     return (
       <Li key={i}>
-        <AboutMe name={items.name} image={items.img} />
+        <AboutMe name={items.name} image={items.img} message={items.message} />
       </Li>
     );
   });

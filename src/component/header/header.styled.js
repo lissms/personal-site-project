@@ -128,7 +128,7 @@ const animationMouse = keyframes`
  0% {  
   top: 622px;}
   50%{ 
-  top: 650px;}
+  top: 637px;}
   100% {  
   top: 622px;}
  

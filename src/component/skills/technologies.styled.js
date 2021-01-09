@@ -1,4 +1,5 @@
 import styled from "styled-components";
+import { keyframes } from "styled-components";
 
 export const TechnologieContariner = styled.div`
   display: flex;
@@ -40,4 +41,42 @@ export const TechnologieImage = styled.div`
   }
   background-repeat: no-repeat;
   background-size: cover;
+`;
+export const LevelContainer = styled.div`
+  width: 154px;
+  height: 8px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+`;
+export const Completed = styled.div`
+  background: #76f09b;
+  border-radius: 30px;
+  width: 34px;
+  height: 8px;
+`;
+export const Incomplete = styled.div`
+  background: #e7e7e7;
+  border-radius: 30px;
+  width: 34px;
+  height: 8px;
+`;
+
+const animationLevel = keyframes`
+ 0% {  
+  background: #e7e7e7;}
+  50%{ 
+    background: #76f09b;}
+  100% {  
+    background: #e7e7e7;}
+ 
+`;
+
+export const InProcess = styled.div`
+  border-radius: 30px;
+  width: 34px;
+  height: 8px;
+  animation-name: ${animationLevel};
+  animation-duration: 1s;
+  animation-iteration-count: infinite;
 `;

@@ -81,26 +81,32 @@ const aboutMeData = [
   {
     name: "Cuba",
     img: habana,
+    message: "Aquí nací",
   },
   {
     name: "University",
     img: university,
+    message: "Aquí estudie Microbiología",
   },
   {
     name: "Recherche",
     img: recherche,
+    message: "Trabajé en la investigacion de una vacuna terapeutica contra el cancer",
   },
   {
     name: "Lyon",
     img: lyon,
+    message: "Aquí viví un año y me enamoré del francés",
   },
   {
     name: "Madrid",
     img: madrid,
+    message: "Aqui vivo actualmente",
   },
   {
     name: "Adalab",
     img: adalab,
+    message: "Aquí encontré mi nueva pasion: programar",
   },
 ];
 

@@ -1,4 +1,5 @@
 import styled from "styled-components";
+import { keyframes } from "styled-components";
 
 export const ItemH2 = styled.h2`
   font-family: Gugi;
@@ -8,6 +9,29 @@ export const ItemH2 = styled.h2`
   color: #ffffff;
   text-transform: uppercase;
 `;
+
+/* __________________________ */
+const animationMessage = keyframes`
+ 0% {  
+  
+  
+}
+  100% {  
+    }
+ 
+`;
+export const ItemP = styled.p`
+  font-family: Gugi;
+  font-size: 20px;
+  letter-spacing: 0.14em;
+  color: #ffffff;
+  background-color: blue;
+  animation-name: ${animationMessage};
+  animation-duration: 1s;
+  animation-iteration-count: 1;
+`;
+
+/* _____________________ */
 
 export const ContainerItemH2 = styled.div`
   width: 380px;

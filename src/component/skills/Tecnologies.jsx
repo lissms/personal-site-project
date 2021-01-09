@@ -1,8 +1,36 @@
 import React from "react";
 import PropTypes from "prop-types";
-import { TechnologieContariner, TechnologieName, TechnologieImage, TechnologieLevel } from "./technologies.styled";
+import {
+  TechnologieContariner,
+  TechnologieName,
+  TechnologieImage,
+  TechnologieLevel,
+  LevelContainer,
+  Completed,
+  Incomplete,
+  InProcess,
+} from "./technologies.styled";
 
 function Tecnologies(props) {
+  let component = (
+    <>
+      <Completed /> <Completed /> <Incomplete />
+    </>
+  );
+  if (props.level === "learning") {
+    component = (
+      <>
+        <InProcess /> <Incomplete /> <Incomplete />
+      </>
+    );
+  } else if (props.level === "senior") {
+    component = (
+      <>
+        <Completed /> <Completed /> <Completed />
+      </>
+    );
+  }
+
   return (
     <TechnologieContariner>
       <TechnologieName>{props.name}</TechnologieName>
@@ -10,7 +38,8 @@ function Tecnologies(props) {
         imgeTechnologie={props.imgeTechnologie}
         greenImageTechnologie={props.greenImageTechnologie}
       ></TechnologieImage>
-      <TechnologieLevel>{props.level}</TechnologieLevel>
+      <TechnologieLevel>learning | junior | senior</TechnologieLevel>
+      <LevelContainer>{component}</LevelContainer>
     </TechnologieContariner>
   );
 }
