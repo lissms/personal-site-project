@@ -4,7 +4,7 @@ import TechnologiesList from "./TechnologiesList";
 
 function Skills(props) {
   return (
-    <ContainerSkills>
+    <ContainerSkills id="skills">
       <SkillsDiv>
         <SkillsH2>Skills</SkillsH2>
       </SkillsDiv>

@@ -15,7 +15,7 @@ function App() {
       <SectionAboutMe data={data} />
       <MyWorks data={data} />
       <Contact />
-      <Footer />
+      <Footer id="footer" />
     </>
   );
 }

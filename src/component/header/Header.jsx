@@ -19,16 +19,26 @@ import logo from "./../../images/logo.svg";
 
 function Header(props) {
   return (
-    <HeaderContainer>
+    <HeaderContainer id="header">
       <NavLogoContainer>
         <Logo src={logo} alt="Lissa" title="Lissa" />
         <Nav>
           <Ul>
-            <Li>Home</Li>
-            <Li>Skills</Li>
-            <Li>My works</Li>
-            <Li>About me</Li>
-            <LiContact>Contact</LiContact>
+            <Li>
+              <a href="#header">Home</a>
+            </Li>
+            <Li>
+              <a href="#skills">Skills</a>
+            </Li>
+            <Li>
+              <a href="#sectionAboutMe">About me</a>
+            </Li>
+            <Li>
+              <a href="#myWorks">My works</a>
+            </Li>
+            <LiContact>
+              <a href="#contact">Contact</a>
+            </LiContact>
           </Ul>
         </Nav>
       </NavLogoContainer>

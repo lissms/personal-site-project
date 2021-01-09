@@ -5,7 +5,7 @@ import MyWorksList from "./MyWorksList";
 
 function MyWorks(props) {
   return (
-    <ContainerSkills>
+    <ContainerSkills id="myWorks">
       <SkillsDiv>
         <SkillsH2>My works</SkillsH2>
       </SkillsDiv>

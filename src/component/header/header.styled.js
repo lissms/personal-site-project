@@ -48,20 +48,29 @@ export const Ul = styled.ul`
   height: 23px;
   margin-top: 63px;
   font-size: 18px;
-
-  font-family: "Gugi", cursive;
-  line-height: 22.5px;
-  color: #36677a;
-  text-transform: uppercase;
 `;
 export const Li = styled.li`
   border-right: 2px solid #00de9b;
   align-items: center;
   padding: 0 38px;
+  & a {
+    text-decoration: none;
+    font-family: "Gugi", cursive;
+    line-height: 22.5px;
+    color: #36677a;
+    text-transform: uppercase;
+  }
 `;
 export const LiContact = styled.li`
   align-items: center;
   padding: 0 38px;
+  & a {
+    text-decoration: none;
+    font-family: "Gugi", cursive;
+    line-height: 22.5px;
+    color: #36677a;
+    text-transform: uppercase;
+  }
 `;
 
 export const ContainerImgH1 = styled.div`

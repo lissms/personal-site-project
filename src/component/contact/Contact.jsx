@@ -23,7 +23,7 @@ import linkedinLogo from "../../images/Linkedin-Logo.png";
 
 function Contact(props) {
   return (
-    <ContainerSection>
+    <ContainerSection id="contact">
       <ProfileLink>
         <ContainerImgAndCover>
           <CoverPhotoLn />
@@ -39,11 +39,11 @@ function Contact(props) {
           <LinkedinLogo src={linkedinLogo} alt="linkedin" />
         </ContainerLinkdn>
       </ProfileLink>
-      <Form action="">
+      <Form action="https://formspree.io/f/xqkgwlzy" method="POST">
         <NameEmail type="text" name="name" id="name" placeholder="Your Name" />
         <NameEmail type="email" name="e-mail" id="e-mail" placeholder="Your e-mail" />
         <Messsage name="" id="" cols="30" rows="10" placeholder="A message for me"></Messsage>
-        <Btn type="button" value="Send Message" />
+        <Btn type="submit" value="Send Message" />
       </Form>
     </ContainerSection>
   );

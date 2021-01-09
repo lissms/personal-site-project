@@ -22,7 +22,7 @@ export const ContainerItemH2 = styled.div`
   align-items: center;
 `;
 export const ContainerItemli = styled.div`
-  width: 480px;
+  width: 474px;
   height: 352px;
   display: flex;
   justify-content: center;

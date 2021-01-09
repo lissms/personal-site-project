@@ -4,8 +4,8 @@ import { ItemH2, ContainerItemH2, ContainerItemli } from "./aboutMe.styled";
 
 function AboutMe(props) {
   return (
-    <ContainerItemli image={props.image}>
-      <ContainerItemH2>
+    <ContainerItemli image={props.image} id="sectionAboutMe">
+      <ContainerItemH2 name={props.name}>
         <ItemH2>{props.name}</ItemH2>
       </ContainerItemH2>
     </ContainerItemli>
