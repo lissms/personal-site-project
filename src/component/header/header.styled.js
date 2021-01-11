@@ -4,7 +4,6 @@ import background from "./../../images/backgroundHeader.jpg";
 import { keyframes } from "styled-components";
 
 export const HeaderContainer = styled.header`
-  background-image: url(${background});
   position: relative;
   height: 730px;
   margin: 0;
@@ -34,6 +33,10 @@ export const NavLogoContainer = styled.div`
   display: flex;
   justify-content: space-between;
   z-index: 1;
+  @media (max-width: 480px) {
+    flex-direction: column;
+    align-items: center;
+  }
 `;
 export const Nav = styled.nav`
   display: flex;
@@ -48,6 +51,9 @@ export const Ul = styled.ul`
   height: 23px;
   margin-top: 63px;
   font-size: 18px;
+  /*  position: fixed;
+  right: 60px;
+  top: -50px; */
 `;
 export const Li = styled.li`
   border-right: 2px solid #00de9b;

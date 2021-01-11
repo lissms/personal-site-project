@@ -6,20 +6,21 @@ import MyWorksList from "./MyWorksList";
 import MyWorksListOtherWorks from "./MyWorksListOtherWorks";
 
 function MyWorks(props) {
-  const [otherWork, SetotherWork] = useState(<MyWorksList data={props.data.myWorks} />);
-  const handlerFWork = () => {
-    SetotherWork(<MyWorksListOtherWorks data={props.data.myWorks} />);
-  };
+  const [hasFlag, setHasFlag] = useState(true);
 
+  const handlerFWork = () => {
+    setHasFlag(hasFlag ? false : true);
+  };
+  /* por que no me retrocede el asunto */
   return (
     <ContainerSkills id="myWorks">
       <SkillsDiv>
         <SkillsH2>My works</SkillsH2>
       </SkillsDiv>
-      <TecnologiesContainer>{otherWork}</TecnologiesContainer>
-      <ButtonOtherProject onClick={handlerFWork}>
-        <p>&#60;</p>
-      </ButtonOtherProject>
+      <TecnologiesContainer>
+        {hasFlag ? <MyWorksListOtherWorks data={props.data.myWorks} /> : <MyWorksList data={props.data.myWorks} />}
+      </TecnologiesContainer>
+      <ButtonOtherProject onClick={handlerFWork}>{hasFlag ? <p>&#62;</p> : <p>&#60;</p>}</ButtonOtherProject>
       <ShadowInTheEnd />
     </ContainerSkills>
   );

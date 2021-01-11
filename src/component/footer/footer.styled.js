@@ -10,7 +10,8 @@ export const FooterDiv = styled.div`
   /*  position: fixed;
   bottom: 0;
   left: 0;
-  right: 0; */
+  right: 0;
+  z-index: 20; */
 `;
 export const Date = styled.p`
   font-family: Gugi;

@@ -17,6 +17,7 @@ export const ButtonOtherProject = styled.div`
   background-color: #073cb4;
   z-index: 10;
   position: relative;
+  cursor: pointer;
   & p {
     color: #76f09b;
     font-size: 40px;

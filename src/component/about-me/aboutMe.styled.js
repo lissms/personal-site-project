@@ -8,6 +8,9 @@ export const ItemH2 = styled.h2`
   letter-spacing: 0.14em;
   color: #ffffff;
   text-transform: uppercase;
+  @media (max-width: 480px) {
+    font-size: 36px;
+  }
 `;
 
 /* __________________________ */
@@ -44,6 +47,10 @@ export const ContainerItemH2 = styled.div`
   display: flex;
   justify-content: center;
   align-items: center;
+  z-index: 5;
+  @media (max-width: 480px) {
+    width: 313px;
+  }
 `;
 export const ContainerItemli = styled.div`
   width: 474px;
@@ -53,4 +60,7 @@ export const ContainerItemli = styled.div`
   align-items: center;
   background-image: ${(props) => `url(${props.image})`};
   grid-area: ${(props) => `${props.name}`};
+  @media (max-width: 480px) {
+    width: 378px;
+  }
 `;

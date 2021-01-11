@@ -8,6 +8,12 @@ export const UL = styled.ul`
   grid-template-rows: 1fr 1fr;
   grid-gap: 0;
   grid-template-areas: "Cuba University Recherche" "Lyon Madrid Adalab";
+  @media (max-width: 480px) {
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-gap: 0;
+    grid-template-areas: "Cuba" "University" "Recherche" "Lyon" "Madrid" "Adalab";
+  }
 `;
 
 export const Li = styled.li`
