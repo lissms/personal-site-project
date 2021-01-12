@@ -52,15 +52,3 @@ export const ContainerItemH2 = styled.div`
     width: 313px;
   }
 `;
-export const ContainerItemli = styled.div`
-  width: 474px;
-  height: 352px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  background-image: ${(props) => `url(${props.image})`};
-  grid-area: ${(props) => `${props.name}`};
-  @media (max-width: 480px) {
-    width: 378px;
-  }
-`;

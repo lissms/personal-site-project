@@ -7,6 +7,9 @@ export const FooterDiv = styled.div`
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  @media (max-width: 480px) {
+    width: 100%;
+  }
   /*  position: fixed;
   bottom: 0;
   left: 0;

@@ -3,7 +3,6 @@ import coverLink from "../../images/portadalink.jpg";
 import image from "../../images/20201107_113153.jpg";
 
 export const CoverPhotoLn = styled.div`
-  width: 389px;
   height: 112px;
   background-image: url(${coverLink});
 `;
@@ -15,10 +14,16 @@ export const ImgLinkdn = styled.div`
   background-image: url(${image});
   background-size: cover;
   background-position: 168px -20px;
-  height: 161px;
   position: absolute;
   top: 19px;
-  left: 107px;
+  left: 102px;
+  @media (max-width: 480px) {
+    width: 120px;
+    height: 120px;
+    background-position: 126px -20px;
+    top: 19px;
+    left: 70px;
+  }
 `;
 export const ContainerImgAndCover = styled.div`
   position: relative;
@@ -34,12 +39,15 @@ export const ContainerLinkdn = styled.div`
   align-items: center;
 `;
 export const ProfileLink = styled.div`
-  width: 389px;
+  width: 280px;
   height: 514px;
   background: #21687c;
   border-radius: 4px;
   margin: 0;
   padding: 0;
+  @media (min-width: 768px) {
+    width: 389px;
+  }
 `;
 export const Name = styled.p`
   font-family: Roboto;
@@ -73,6 +81,16 @@ export const ContainerSection = styled.div`
   display: flex;
   justify-content: space-around;
   align-items: center;
+
+  @media (max-width: 480px) {
+    height: 1000px;
+    width: 100%;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  @media (max-width: 768px) {
+    padding: 10px;
+  }
 `;
 export const ViewProfile = styled.div`
   width: 159px;
@@ -105,7 +123,7 @@ export const Form = styled.form`
   align-items: center;
 `;
 export const NameEmail = styled.input`
-  width: 388px;
+  width: 280px;
   height: 48px;
   background: #f4f4f4;
   border: 2px solid #21687c;
@@ -132,9 +150,15 @@ export const NameEmail = styled.input`
   &:-ms-input-placeholder {
     color: #00c9b7;
   }
+  @media (min-width: 480px) {
+    width: 320px;
+  }
+  @media (min-width: 768px) {
+    width: 320px;
+  }
 `;
 export const Messsage = styled.textarea`
-  width: 388px;
+  width: 280px;
   height: 267px;
   background: #f4f4f4;
   border: 2px solid #21687c;
@@ -160,9 +184,15 @@ export const Messsage = styled.textarea`
   &:-ms-input-placeholder {
     color: #00c9b7;
   }
+  @media (min-width: 480px) {
+    width: 320px;
+  }
+  @media (min-width: 768px) {
+    width: 320px;
+  }
 `;
 export const Btn = styled.input`
-  width: 388px;
+  width: 280px;
   height: 48px;
   background: #76f09b;
   border-radius: 4px;
@@ -172,4 +202,10 @@ export const Btn = styled.input`
   font-size: 17px;
   line-height: 21px;
   color: #21687c;
+  @media (max-width: 480px) {
+    width: 320px;
+  }
+  @media (min-width: 768px) {
+    width: 388px;
+  }
 `;

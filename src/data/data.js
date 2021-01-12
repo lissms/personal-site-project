@@ -81,32 +81,33 @@ const aboutMeData = [
   {
     name: "Cuba",
     img: habana,
-    message: "Aquí nací",
+    message: "My beautiful island. I’m Cuban and I love to dance, specially Salsa. ",
   },
   {
     name: "University",
     img: university,
-    message: "Aquí estudie Microbiología",
+    message: "I studied Microbiology at the University of Havana. ",
   },
   {
     name: "Recherche",
     img: recherche,
-    message: "Trabajé en la investigacion de una vacuna terapeutica contra el cancer",
+    message:
+      "My first passion. I was part of a research project team looking to find a vaccine that would prevent cancer. ",
   },
   {
     name: "Lyon",
     img: lyon,
-    message: "Aquí viví un año y me enamoré del francés",
+    message: "The second most beautiful city of France. I lived here and fall in love with the French language",
   },
   {
     name: "Madrid",
     img: madrid,
-    message: "Aqui vivo actualmente",
+    message: "Where the sun is as bright as in Cuba. I live here",
   },
   {
     name: "Adalab",
     img: adalab,
-    message: "Aquí encontré mi nueva pasion: programar",
+    message: "Here I found my new passion, Frontend Develoment",
   },
 ];
 

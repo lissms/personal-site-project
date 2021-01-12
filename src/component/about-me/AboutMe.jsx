@@ -1,6 +1,6 @@
 import PropTypes from "prop-types";
 import React, { useEffect, useState } from "react";
-import { ItemH2, ContainerItemH2, ContainerItemli, ItemP } from "./aboutMe.styled";
+import { ItemH2, ContainerItemH2, ItemP } from "./aboutMe.styled";
 
 function AboutMe(props) {
   const [message, setMessage] = useState(<ItemH2>{props.name}</ItemH2>);
@@ -13,11 +13,11 @@ function AboutMe(props) {
   };
 
   return (
-    <ContainerItemli image={props.image} id="sectionAboutMe">
+    <div image={props.image} name={props.name} id="sectionAboutMe">
       <ContainerItemH2 name={props.name} onMouseOver={handleMessage} onMouseOut={handleName}>
         {message}
       </ContainerItemH2>
-    </ContainerItemli>
+    </div>
   );
 }
 
