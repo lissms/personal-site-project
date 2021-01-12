@@ -47,6 +47,7 @@ export const ProfileLink = styled.div`
   padding: 0;
   @media (min-width: 768px) {
     width: 389px;
+    margin-left: 10px;
   }
 `;
 export const Name = styled.p`
@@ -87,9 +88,6 @@ export const ContainerSection = styled.div`
     width: 100%;
     flex-direction: column;
     justify-content: space-between;
-  }
-  @media (max-width: 768px) {
-    padding: 10px;
   }
 `;
 export const ViewProfile = styled.div`
@@ -202,10 +200,8 @@ export const Btn = styled.input`
   font-size: 17px;
   line-height: 21px;
   color: #21687c;
-  @media (max-width: 480px) {
-    width: 320px;
-  }
+
   @media (min-width: 768px) {
-    width: 388px;
+    width: 320px;
   }
 `;
