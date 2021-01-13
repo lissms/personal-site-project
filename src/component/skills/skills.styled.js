@@ -1,8 +1,7 @@
 import styled from "styled-components";
 
 export const SkillsDiv = styled.div`
-  background-color: red;
-  @media (min-width: 480px) {
+  @media (min-width: 768px) {
     width: 698px;
     height: 163px;
     transform: rotate(-90deg);
@@ -36,20 +35,19 @@ export const ContainerSkills = styled.div`
   display: flex;
   flex-direction: column;
   justify-content: center;
-  align-items: center;
   margin: 0px;
   padding: 50px;
   @media (min-width: 768px) {
     position: relative;
     display: flex;
     justify-content: flex-start;
-    height: 730px;
+    /*  height: 730px; */
     margin: 0px;
     padding: 50px;
   }
 `;
 export const ShadowInTheEnd = styled.div`
-  @media (min-width: 768px) {
+  @media (min-width: 1200px) {
     position: absolute;
     right: 0;
     top: 0;
@@ -67,9 +65,8 @@ export const TecnologiesContainer = styled.div`
     justify-content: space-around;
     padding-left: 36px;
     border-left: dotted #073cb4 5px;
-    margin-left: 100px;
     overflow: hidden;
-    background-color: #fabada;
+    margin-left: 100px;
   }
 `;
 

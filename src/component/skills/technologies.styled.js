@@ -12,7 +12,7 @@ export const TechnologieContariner = styled.div`
   border-radius: 5px;
   /* margin-right: 30px; */ /* este es el solo margin q tiene en laptop */
   margin-bottom: 30px;
-  @media (min-width: 480px) {
+  @media (min-width: 768px) {
     margin-right: 30px;
   }
 `;

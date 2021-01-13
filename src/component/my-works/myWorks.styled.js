@@ -13,7 +13,7 @@ const animationButton = keyframes`
 `;
 export const ButtonOtherProject = styled.div`
   display: none;
-  @media all and (min-width: 768px) {
+  @media all and (min-width: 1200px) {
     display: flex;
     width: 49px;
     height: 36px;

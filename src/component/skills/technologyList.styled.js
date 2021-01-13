@@ -8,6 +8,10 @@ export const TitleTechnologies = styled.p`
   letter-spacing: 0.14em;
   margin: 0;
   text-align: center;
+  @media (min-width: 768px) {
+    font-size: 36px;
+    text-align: start;
+  }
 `;
 
 export const UL = styled.ul`
@@ -18,9 +22,12 @@ export const UL = styled.ul`
   align-items: center;
   padding: 0;
   @media (min-width: 768px) {
-    background-color: red;
-    justify-content: center;
-    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding: 0;
+  }
+  @media (min-width: 1200px) {
+    flex-direction: row;
     padding: 0;
   }
 
