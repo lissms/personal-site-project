@@ -17,6 +17,12 @@ export const UL = styled.ul`
   justify-content: flex-start;
   align-items: center;
   padding: 0;
+  @media (min-width: 768px) {
+    background-color: red;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+  }
 
   & li {
     margin: 0;
