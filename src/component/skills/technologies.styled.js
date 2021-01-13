@@ -10,7 +10,8 @@ export const TechnologieContariner = styled.div`
   height: 249px;
   box-shadow: 3px 4px 7px -4px rgba(0, 0, 0, 0.25);
   border-radius: 5px;
-  margin-right: 30px;
+  /* margin-right: 30px; */ /* este es el solo margin q tiene en laptop */
+  margin-bottom: 30px;
 `;
 
 export const TechnologieName = styled.p`

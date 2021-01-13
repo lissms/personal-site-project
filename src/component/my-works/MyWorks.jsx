@@ -11,7 +11,7 @@ function MyWorks(props) {
   const handlerFWork = () => {
     setHasFlag(hasFlag ? false : true);
   };
-  /* por que no me retrocede el asunto */
+
   return (
     <ContainerSkills id="myWorks">
       <SkillsDiv>

@@ -2,6 +2,16 @@ import styled from "styled-components";
 import { keyframes } from "styled-components";
 
 const animationButton = keyframes`
+
+ 
+`;
+export const ButtonOtherProject = styled.div`
+  display: none;
+`;
+
+/* _______________-- */
+
+/* const animationButton = keyframes`
  0% {  
     left: -4px;}
   50%{ 
@@ -30,3 +40,4 @@ export const ButtonOtherProject = styled.div`
     animation-iteration-count: infinite;
   }
 `;
+ */
