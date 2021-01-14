@@ -42,7 +42,7 @@ function Contact(props) {
       <Form action="https://formspree.io/f/xqkgwlzy" method="POST">
         <NameEmail type="text" name="name" id="name" placeholder="Your Name" />
         <NameEmail type="email" name="e-mail" id="e-mail" placeholder="Your e-mail" />
-        <Messsage name="" id="" cols="30" rows="10" placeholder="A message for me"></Messsage>
+        <Messsage name="comments" id="comments" cols="30" rows="10" placeholder="A message for me"></Messsage>
         <Btn type="submit" value="Send Message" />
       </Form>
     </ContainerSection>

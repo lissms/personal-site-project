@@ -31,7 +31,7 @@ export const ContainerImgAndCover = styled.div`
 export const ContainerLinkdn = styled.div`
   background: #21687c;
   border-radius: 4px;
-  margin: 0;
+  margin: 25px;
   padding: 0;
   display: flex;
   flex-direction: column;
