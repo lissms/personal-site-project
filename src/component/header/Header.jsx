@@ -2,7 +2,6 @@ import React from "react";
 import {
   HeaderContainer,
   Logo,
-  NavLogoContainer,
   Ul,
   Li,
   Nav,
@@ -14,34 +13,34 @@ import {
   Mouse,
   Mousebutton,
   ContainerH1,
+  MenuMovil,
 } from "./header.styled";
 import logo from "./../../images/logo.svg";
 
 function Header(props) {
   return (
     <HeaderContainer id="header">
-      <NavLogoContainer>
+      <Nav>
         <Logo src={logo} alt="Lissa" title="Lissa" />
-        <Nav>
-          <Ul>
-            <Li>
-              <a href="#header">Home</a>
-            </Li>
-            <Li>
-              <a href="#skills">Skills</a>
-            </Li>
-            <Li>
-              <a href="#sectionAboutMe">About me</a>
-            </Li>
-            <Li>
-              <a href="#myWorks">My works</a>
-            </Li>
-            <LiContact>
-              <a href="#contact">Contact</a>
-            </LiContact>
-          </Ul>
-        </Nav>
-      </NavLogoContainer>
+        <MenuMovil>menú</MenuMovil>
+        <Ul>
+          <Li>
+            <a href="#header">Home</a>
+          </Li>
+          <Li>
+            <a href="#skills">Skills</a>
+          </Li>
+          <Li>
+            <a href="#sectionAboutMe">About me</a>
+          </Li>
+          <Li>
+            <a href="#myWorks">My works</a>
+          </Li>
+          <LiContact>
+            <a href="#contact">Contact</a>
+          </LiContact>
+        </Ul>
+      </Nav>
 
       <ContainerImgH1>
         <PersonalImage title="My personal image"></PersonalImage>

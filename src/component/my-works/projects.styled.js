@@ -47,14 +47,14 @@ export const LinkToWebSiteContainer = styled.a`
   &::after {
     content: "";
     position: absolute;
-    top: -100px;
-    left: -83px;
+    top: -19px;
+    left: 247px;
     z-index: -1;
-    width: 250px;
-    height: 0px;
-    border-right: 60px solid transparent;
-    border-left: 60px solid transparent;
-    border-bottom: 100px solid #073cb4;
+    width: 0;
+    height: 0;
+    border-bottom: 20px solid #073cb4;
+    border-left: 20px solid transparent;
+    border-right: 20px solid transparent;
   }
 `;
 export const WebSiteTitle = styled.p`

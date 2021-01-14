@@ -4,56 +4,54 @@ import background from "./../../images/backgroundHeader.jpg";
 import { keyframes } from "styled-components";
 
 export const HeaderContainer = styled.header`
-  position: relative;
-  height: 730px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
   margin: 0;
+  height: 100vh;
   background-size: cover;
-  background-image: url(/static/media/backgroundHeader.5d760ca6.jpg);
-  height: 730px;
+  background-image: linear-gradient(229.32deg, rgba(150, 237, 163, 0.78) 45.51%, rgba(7, 60, 180, 0.78) 118.95%),
+    url(/static/media/backgroundHeader.5d760ca6.jpg);
   margin: 0;
   background-position: 2px -202px;
-  &:before {
-    content: "";
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background: linear-gradient(229.32deg, rgba(150, 237, 163, 0.78) 45.51%, rgba(7, 60, 180, 0.78) 118.95%);
-  }
 `;
 export const Logo = styled.img`
   width: 142px;
   height: 60.13px;
-  margin-left: 30px;
-  margin-top: 44px;
-  z-index: 1;
 `;
-export const NavLogoContainer = styled.div`
+
+export const Nav = styled.nav`
+  position: fixed;
   display: flex;
   justify-content: space-between;
-  z-index: 1;
-  @media (max-width: 480px) {
-    flex-direction: column;
-    align-items: center;
-  }
-`;
-export const Nav = styled.nav`
-  display: flex;
-  justify-content: center;
-  z-index: 1;
+  align-items: center;
+  width: 100%;
+  height: 70px;
+  left: 0px;
+  top: 1px;
+  padding: 0 30px 0 30px;
+  background: rgba(255, 255, 255, 0.95);
+  z-index: 100;
 `;
 
 export const Ul = styled.ul`
-  justify-content: space-around;
+  position: absolute;
+  top: 100px;
   display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
   list-style: none;
   height: 23px;
-  margin-top: 63px;
   font-size: 18px;
-  /*  position: fixed;
-  right: 60px;
-  top: -50px; */
+
+  @media (min-width: 768px) {
+    position: relative;
+    top: 0;
+    left: 0;
+    flex-direction: row;
+  }
 `;
 export const Li = styled.li`
   border-right: 2px solid #00de9b;
@@ -95,7 +93,7 @@ export const PersonalImage = styled.div`
   border: 10px #76f09b solid;
   border: 10px #76f09b solid;
   background-position: left;
-  z-index: 1;
+  margin-right: 200px;
 `;
 
 export const H1 = styled.h1`
@@ -132,16 +130,15 @@ export const ContainerH1 = styled.div`
 `;
 const animationMouse = keyframes`
  0% {  
-  top: 622px;}
+  transform: translateY(0);}
   50%{ 
-  top: 637px;}
+    transform: translateY(20px);;}
   100% {  
-  top: 622px;}
+    transform: translateY(0);}
  
 `;
 
 export const Mouse = styled.div`
-  position: absolute;
   display: flex;
   justify-content: center;
   align-items: flex-start;
@@ -150,8 +147,6 @@ export const Mouse = styled.div`
   border-radius: 25px;
   width: 49px;
   height: 77px;
-  left: 694px;
-  top: 622px;
   animation-name: ${animationMouse};
   animation-duration: 4s;
   animation-iteration-count: infinite;
@@ -165,4 +160,17 @@ export const Mousebutton = styled.div`
   height: 18px;
   left: 714px;
   top: 638px;
+`;
+
+export const MenuMovil = styled.div`
+  position: fixed;
+
+  left: 300px;
+  font-family: "Gugi", cursive;
+  line-height: 22.5px;
+  color: #36677a;
+  text-transform: uppercase;
+  @media (min-width: 768px) {
+    display: none;
+  }
 `;

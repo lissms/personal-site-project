@@ -43,7 +43,7 @@ export const ProfileLink = styled.div`
   height: 514px;
   background: #21687c;
   border-radius: 4px;
-  margin: 0;
+  margin: 25px;
   padding: 0;
   @media (min-width: 768px) {
     width: 389px;
