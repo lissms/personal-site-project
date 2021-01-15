@@ -162,7 +162,7 @@ export const Mousebutton = styled.div`
   top: 638px;
 `;
 
-export const MenuMovil = styled.div`
+/* export const MenuMovil = styled.div`
   position: fixed;
 
   left: 300px;
@@ -173,4 +173,4 @@ export const MenuMovil = styled.div`
   @media (min-width: 768px) {
     display: none;
   }
-`;
+`; */

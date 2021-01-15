@@ -13,17 +13,18 @@ import {
   Mouse,
   Mousebutton,
   ContainerH1,
-  MenuMovil,
 } from "./header.styled";
 import logo from "./../../images/logo.svg";
+import Menu from "./Menu";
 
 function Header(props) {
   return (
     <HeaderContainer id="header">
       <Nav>
         <Logo src={logo} alt="Lissa" title="Lissa" />
-        <MenuMovil>menú</MenuMovil>
-        <Ul>
+        <Menu id="menu" />
+
+        {/* <Ul>
           <Li>
             <a href="#header">Home</a>
           </Li>
@@ -39,7 +40,7 @@ function Header(props) {
           <LiContact>
             <a href="#contact">Contact</a>
           </LiContact>
-        </Ul>
+        </Ul> */}
       </Nav>
 
       <ContainerImgH1>
