@@ -11,6 +11,9 @@ export const BurgerMenu = styled.div`
   height: 30px;
   margin-right: 30px;
   cursor: pointer;
+  @media (min-width: 1200px) {
+    display: none;
+  }
 
   & .top-blue {
     position: absolute;
@@ -35,16 +38,7 @@ export const BurgerMenu = styled.div`
     background: #073cb4;
    transform: ${(props) => (props.isOpen ? `rotate(0deg) translateY(6px)` : `rotate(131deg) translateY(0px);`)};
     transition: transform ease 0.5s;
-  
-/*   &:hover .top-blue {
-    transform: rotate(45deg) translateY(0px);
-  }
-  &:hover .bottom-blue {
-    transform: rotate(131deg) translateY(0px);
-  }
-  &:hover .green {
-    transform: scale(0);
-  } */
+
 `;
 
 /* export const BurgerMenu = styled.div`
