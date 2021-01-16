@@ -39,6 +39,7 @@ export const Nav = styled.nav`
   background: rgba(255, 255, 255, 0.95);
   z-index: 100;
   margin: 0;
+
   @media (min-width: 1200px) {
     justify-content: space-between;
   }
@@ -149,6 +150,12 @@ export const ContainerImgH1 = styled.div`
   justify-content: space-around;
   align-items: center;
   z-index: 1;
+  @media (min-width: 768px) {
+    flex-direction: row;
+    justify-content: space-around;
+    width: 100%;
+    margin: 10px;
+  }
   @media (min-width: 1200px) {
     flex-direction: row;
   }
@@ -203,19 +210,34 @@ export const Span = styled.span`
 `;
 export const ContainerH1 = styled.div`
   position: relative;
+  @media (min-width: 768px) {
+    width: 400px;
+    & ::before {
+      content: "";
+      width: 10px;
+      height: 159px;
+      background: #1c2ed7;
+      z-index: 1;
+      position: absolute;
+      top: 24px;
+      left: 6px;
+      border-radius: 12px;
+    }
+  }
   @media (min-width: 1200px) {
     & ::before {
-    content: "";
-    width: 10px;
-    height: 159px;
-    background: #1c2ed7;
-    z-index: 1;
-    position: absolute;
-    top: 92px;
-    left: 76px;
-    border-radius: 12px;
+      content: "";
+      width: 10px;
+      height: 159px;
+      background: #1c2ed7;
+      z-index: 1;
+      position: absolute;
+      top: 92px;
+      left: 76px;
+      border-radius: 12px;
+    }
   }
-  `;
+`;
 
 const animationMouse = keyframes`
  0% {  

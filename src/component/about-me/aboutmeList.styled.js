@@ -8,14 +8,14 @@ export const UL = styled.ul`
   grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
   grid-gap: 0;
   grid-template-areas: "Cuba" "University" "Recherche" "Lyon" "Madrid" "Adalab";
-  @media (min-width: 480px) {
+  @media (min-width: 768px) {
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr 1fr 1fr;
     grid-gap: 0;
     grid-template-areas: "Cuba University" "Recherche Lyon" "Madrid Adalab";
   }
 
-  @media (min-width: 768px) {
+  @media (min-width: 1200px) {
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 1fr 1fr;
     grid-gap: 0;
