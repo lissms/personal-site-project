@@ -19,11 +19,7 @@ function MyWorksList(props) {
       </Li>
     );
   });
-  return (
-    <>
-      <UL>{projects}</UL>
-    </>
-  );
+  return <UL>{projects}</UL>;
 }
 
 MyWorksList.propTypes = {};

@@ -35,6 +35,10 @@ export const ButtonOtherProject = styled.div`
     }
   }
 `;
+export const MyWorksContainer = styled.div`
+  display: flex;
+  justify-content: center;
+`;
 
 /* _______________-- */
 

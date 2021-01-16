@@ -1,7 +1,7 @@
-import React, { useEffect, useState } from "react";
+import React, { useState } from "react";
 import PropTypes from "prop-types";
-import { SkillsDiv, SkillsH2, ContainerSkills, ShadowInTheEnd, TecnologiesContainer } from "../skills/skills.styled";
-import { ButtonOtherProject } from "./myWorks.styled";
+import { SkillsDiv, SkillsH2, ContainerSkills, ShadowInTheEnd } from "../skills/skills.styled";
+import { ButtonOtherProject, MyWorksContainer } from "./myWorks.styled";
 import MyWorksList from "./MyWorksList";
 import MyWorksListOtherWorks from "./MyWorksListOtherWorks";
 
@@ -17,9 +17,9 @@ function MyWorks(props) {
       <SkillsDiv>
         <SkillsH2>My works</SkillsH2>
       </SkillsDiv>
-      <TecnologiesContainer>
+      <MyWorksContainer>
         {hasFlag ? <MyWorksListOtherWorks data={props.data.myWorks} /> : <MyWorksList data={props.data.myWorks} />}
-      </TecnologiesContainer>
+      </MyWorksContainer>
       <ButtonOtherProject onClick={handlerFWork}>{hasFlag ? <p>&#62;</p> : <p>&#60;</p>}</ButtonOtherProject>
       <ShadowInTheEnd />
     </ContainerSkills>

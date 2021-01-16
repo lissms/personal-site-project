@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import {
   HeaderContainer,
   Logo,
@@ -18,13 +18,18 @@ import logo from "./../../images/logo.svg";
 import Menu from "./Menu";
 
 function Header(props) {
+  const [isOpen, setIsOpen] = useState(true);
+
+  const handleClick = () => {
+    setIsOpen(isOpen ? false : true);
+  };
   return (
     <HeaderContainer id="header">
       <Nav>
         <Logo src={logo} alt="Lissa" title="Lissa" />
-        <Menu id="menu" />
+        <Menu id="menu" isOpen={isOpen} handleClick={handleClick} />
 
-        {/* <Ul>
+        <Ul isOpen={isOpen}>
           <Li>
             <a href="#header">Home</a>
           </Li>
@@ -40,7 +45,7 @@ function Header(props) {
           <LiContact>
             <a href="#contact">Contact</a>
           </LiContact>
-        </Ul> */}
+        </Ul>
       </Nav>
 
       <ContainerImgH1>
