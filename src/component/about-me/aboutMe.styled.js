@@ -13,25 +13,12 @@ export const ItemH2 = styled.h2`
   }
 `;
 
-/* __________________________ */
-const animationMessage = keyframes`
- 0% {  
-  
-  
-}
-  100% {  
-    }
- 
-`;
 export const ItemP = styled.p`
   font-family: Gugi;
-  font-size: 20px;
+  font-size: 14px;
+  line-height: 17px;
   letter-spacing: 0.14em;
   color: #ffffff;
-  background-color: blue;
-  animation-name: ${animationMessage};
-  animation-duration: 1s;
-  animation-iteration-count: 1;
 `;
 
 /* _____________________ */
@@ -41,13 +28,15 @@ export const ContainerItemH2 = styled.div`
   height: 101px;
   left: 51px;
   top: 1746px;
-  background: rgba(7, 60, 180, 0.3);
+  padding: 10px;
+  background: ${(props) => (props.isHover ? `rgba(7, 60, 180, 0.3);` : `rgba(7, 60, 180, 0.7);`)};
   border: 5px solid #ffffff;
   box-sizing: border-box;
   display: flex;
   justify-content: center;
   align-items: center;
   z-index: 5;
+  cursor: pointer;
   @media (max-width: 480px) {
     width: 313px;
   }
