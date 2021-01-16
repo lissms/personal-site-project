@@ -20,7 +20,11 @@ function MyWorks(props) {
       <MyWorksContainer>
         {hasFlag ? <MyWorksListOtherWorks data={props.data.myWorks} /> : <MyWorksList data={props.data.myWorks} />}
       </MyWorksContainer>
-      <ButtonOtherProject onClick={handlerFWork}>{hasFlag ? <p>&#62;</p> : <p>&#60;</p>}</ButtonOtherProject>
+      <ButtonOtherProject onClick={handlerFWork} hasFlag={hasFlag}>
+        <div className="arrow"></div>
+        <div className="arrow-bottom"></div>
+      </ButtonOtherProject>
+      {/*  <ButtonOtherProject onClick={handlerFWork}>{hasFlag ? <p>&#62;</p> : <p>&#60;</p>}</ButtonOtherProject> */}
       <ShadowInTheEnd />
     </ContainerSkills>
   );
