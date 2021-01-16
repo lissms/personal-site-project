@@ -38,6 +38,15 @@ export const ButtonOtherProject = styled.div`
 export const MyWorksContainer = styled.div`
   display: flex;
   justify-content: center;
+  @media all and (min-width: 1200px) {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding-left: 36px;
+    border-left: dotted #073cb4 5px;
+    overflow: hidden;
+    margin-left: 100px;
+  }
 `;
 
 /* _______________-- */
