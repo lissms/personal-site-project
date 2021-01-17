@@ -7,7 +7,9 @@ function App() {
     <div className="App">
       <img src={logo} className="App-logo" alt="logo" />
       <h1>My personal website</h1>
-      <a href={cv}>Download my CV</a>
+      <a href={cv} target="_blank">
+        Download my CV
+      </a>
       <h2>Coming soon!</h2>
     </div>
   );
