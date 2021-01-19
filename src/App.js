@@ -19,5 +19,5 @@ function App() {
     </>
   );
 }
-console.log("data.languges", data);
+
 export default App;
