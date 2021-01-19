@@ -7,11 +7,11 @@ export const TechnologieContariner = styled.div`
   justify-content: center;
   align-items: center;
   width: 220px;
-  height: 249px;
+  height: 250px;
   box-shadow: 3px 4px 7px -4px rgba(0, 0, 0, 0.25);
   border-radius: 5px;
-  /* margin-right: 30px; */ /* este es el solo margin q tiene en laptop */
-  margin-bottom: 30px;
+  margin-bottom: 24px;
+
   @media (min-width: 768px) {
     margin-right: 30px;
   }
@@ -22,7 +22,7 @@ export const TechnologieName = styled.p`
   font-family: Gugi;
   font-style: normal;
   font-weight: normal;
-  font-size: 20px;
+  font-size: 18px;
   line-height: 25px;
   letter-spacing: 0.14em;
   color: #76f09b;
@@ -44,7 +44,7 @@ export const TechnologieImage = styled.div`
     background-image: ${(props) => `url(${props.imgeTechnologie})`};
   }
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: contain;
 `;
 export const LevelContainer = styled.div`
   width: 154px;
@@ -52,6 +52,7 @@ export const LevelContainer = styled.div`
   display: flex;
   justify-content: space-around;
   align-items: center;
+  margin-bottom: 24px;
 `;
 export const Completed = styled.div`
   background: #76f09b;
@@ -81,6 +82,6 @@ export const InProcess = styled.div`
   width: 34px;
   height: 8px;
   animation-name: ${animationLevel};
-  animation-duration: 1s;
+  animation-duration: 0.5s;
   animation-iteration-count: infinite;
 `;

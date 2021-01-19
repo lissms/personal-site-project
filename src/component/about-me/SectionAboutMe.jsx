@@ -4,9 +4,9 @@ import AboutMeList from "../about-me/AboutMeList";
 
 function SectionAboutMe(props) {
   return (
-    <>
+    <div id="sectionAboutMe">
       <AboutMeList data={props.data.aboutMeData} />
-    </>
+    </div>
   );
 }
 

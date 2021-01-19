@@ -10,11 +10,6 @@ export const FooterDiv = styled.div`
   @media (max-width: 480px) {
     width: 100%;
   }
-  /*  position: fixed;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  z-index: 20; */
 `;
 export const Date = styled.p`
   font-family: Gugi;

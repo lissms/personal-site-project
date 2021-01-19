@@ -10,7 +10,7 @@ function AboutMe(props) {
   };
 
   return (
-    <div image={props.image} name={props.name} id="sectionAboutMe" onClick={handleMessage}>
+    <div image={props.image} name={props.name} onClick={handleMessage}>
       <ContainerItemH2 name={props.name} message={props.message} isHover={isHover}>
         {isHover ? <ItemH2>{props.name}</ItemH2> : <ItemP>{props.message}</ItemP>}
       </ContainerItemH2>
@@ -21,27 +21,3 @@ function AboutMe(props) {
 AboutMe.propTypes = {};
 
 export default AboutMe;
-/* _____________ */
-
-/* function AboutMe(props) {
-  const [message, setMessage] = useState(<ItemH2>{props.name}</ItemH2>);
-
-  const handleMessage = () => {
-    setMessage(<ItemP>{props.message}</ItemP>);
-  };
-  const handleName = () => {
-    setMessage(<ItemH2>{props.name}</ItemH2>);
-  };
-
-  return (
-    <div image={props.image} name={props.name} id="sectionAboutMe">
-      <ContainerItemH2 name={props.name} onMouseOver={handleMessage} onMouseOut={handleName}>
-        {message}
-      </ContainerItemH2>
-    </div>
-  );
-}
-
-AboutMe.propTypes = {};
-
-export default AboutMe; */

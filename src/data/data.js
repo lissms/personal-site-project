@@ -43,7 +43,7 @@ const languages = [
     greenImageTechnologie: jsGreenLogo,
     imgeTechnologie: jsLogo,
     level: "junior",
-    id: "Javascript3" /* funcion para poner id, nombre+numero mas 1 */,
+    id: "Javascript3",
   },
 ];
 
@@ -56,7 +56,7 @@ const libraries = [
     id: "react",
   },
   {
-    name: "styled-component",
+    name: "styled-components",
     greenImageTechnologie: styledComponentsGreenLogo,
     imgeTechnologie: styledComponentsLogo,
     level: "junior",
@@ -67,7 +67,7 @@ const libraries = [
     greenImageTechnologie: sassGreenLogo,
     imgeTechnologie: sassLogo,
     level: "junior",
-    id: "sass3" /* funcion para poner id, nombre+numero mas 1 */,
+    id: "sass3",
   },
   {
     name: "redux",

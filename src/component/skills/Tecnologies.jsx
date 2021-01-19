@@ -38,7 +38,7 @@ function Tecnologies(props) {
         imgeTechnologie={props.imgeTechnologie}
         greenImageTechnologie={props.greenImageTechnologie}
       ></TechnologieImage>
-      <TechnologieLevel>learning | junior | senior</TechnologieLevel>
+      <TechnologieLevel>{props.level}</TechnologieLevel>
       <LevelContainer>{component}</LevelContainer>
     </TechnologieContariner>
   );

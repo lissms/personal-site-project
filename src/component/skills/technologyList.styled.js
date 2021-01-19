@@ -8,6 +8,7 @@ export const TitleTechnologies = styled.p`
   letter-spacing: 0.14em;
   margin: 0;
   text-align: center;
+
   @media (min-width: 768px) {
     font-size: 36px;
     text-align: start;

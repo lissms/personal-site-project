@@ -21,8 +21,6 @@ export const ItemP = styled.p`
   color: #ffffff;
 `;
 
-/* _____________________ */
-
 export const ContainerItemH2 = styled.div`
   width: 380px;
   height: 101px;

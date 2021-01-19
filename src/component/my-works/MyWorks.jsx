@@ -24,7 +24,6 @@ function MyWorks(props) {
         <div className="arrow"></div>
         <div className="arrow-bottom"></div>
       </ButtonOtherProject>
-      {/*  <ButtonOtherProject onClick={handlerFWork}>{hasFlag ? <p>&#62;</p> : <p>&#60;</p>}</ButtonOtherProject> */}
       <ShadowInTheEnd />
     </ContainerSkills>
   );

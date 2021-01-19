@@ -32,8 +32,8 @@ export const NameWorksH2 = styled.h2`
   float: right;
 `;
 export const LinkToWebSiteContainer = styled.a`
-  width: 287px;
-  height: 63px;
+  width: 254px;
+  height: 64px;
   background: #073cb4;
   border-radius: 4px 0px 0px 4px;
   display: flex;
@@ -41,18 +41,18 @@ export const LinkToWebSiteContainer = styled.a`
   align-items: center;
   position: absolute;
   top: 274px;
-  right: -15px;
+  right: -12px;
   text-decoration: none;
 
   &::after {
     content: "";
     position: absolute;
-    top: -19px;
-    left: 247px;
+    top: -20px;
+    right: -0;
     z-index: -1;
     width: 0;
     height: 0;
-    border-bottom: 20px solid #073cb4;
+    border-bottom: 20px solid #506ba7;
     border-left: 20px solid transparent;
     border-right: 20px solid transparent;
   }
@@ -70,5 +70,5 @@ export const GithubIcon = styled.img`
   width: 50px;
   position: absolute;
   bottom: 20px;
-  left: 8px;
+  left: 14px;
 `;
