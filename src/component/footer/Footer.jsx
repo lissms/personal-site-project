@@ -5,10 +5,12 @@ import { FooterDiv, Date } from "./footer.styled";
 
 function Footer() {
   return (
-    <FooterDiv>
-      <img src={logo} alt="logo" />
-      <Date>2021</Date>
-    </FooterDiv>
+    <>
+      <FooterDiv>
+        <img src={logo} alt="logo" />
+        <Date>2021</Date>
+      </FooterDiv>
+    </>
   );
 }
 

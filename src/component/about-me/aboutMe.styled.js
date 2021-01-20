@@ -29,9 +29,7 @@ export const ContainerText = styled.div`
 export const ContainerItemH2 = styled.div`
   width: 100%;
   height: 101px;
-  left: 51px;
-  top: 1746px;
-  padding: 10px;
+  padding: 16px;
   background: ${(props) => (props.isHover ? `rgba(7, 60, 180, 0.3);` : `rgba(7, 60, 180, 0.7);`)};
   border: 5px solid #ffffff;
   box-sizing: border-box;

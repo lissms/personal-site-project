@@ -16,6 +16,7 @@ import {
 } from "./header.styled";
 import logo from "./../../images/Logo.png";
 import Menu from "./Menu";
+import DownloadButton from "./DownloadButton";
 
 function Header(props) {
   const [isOpen, setIsOpen] = useState(true);
@@ -62,6 +63,7 @@ function Header(props) {
       <Mouse>
         <Mousebutton />
       </Mouse>
+      <DownloadButton />
     </HeaderContainer>
   );
 }
