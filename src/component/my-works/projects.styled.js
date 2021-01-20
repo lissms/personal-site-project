@@ -27,12 +27,12 @@ export const NameWorksH2 = styled.h2`
   color: #1c2ed7;
   position: relative;
   padding: 25px 35px 0 0;
-  width: 384px;
+  width: 90%;
   margin: 0;
   float: right;
 `;
 export const LinkToWebSiteContainer = styled.a`
-  width: 254px;
+  width: 80%;
   height: 64px;
   background: #073cb4;
   border-radius: 4px 0px 0px 4px;
@@ -43,6 +43,10 @@ export const LinkToWebSiteContainer = styled.a`
   top: 274px;
   right: -12px;
   text-decoration: none;
+
+  @media (min-width: 768px) {
+    width: 254px;
+  }
 
   &::after {
     content: "";

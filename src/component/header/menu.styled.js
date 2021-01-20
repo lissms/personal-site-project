@@ -3,6 +3,10 @@ import styled from "styled-components";
 export const BurgerMenu = styled.div`
   display: flex;
   cursor: pointer;
+  width: 50px;
+  height: 50px;
+  justify-content: center;
+  align-items: center;
 
   @media (min-width: 1200px) {
     display: none;

@@ -32,19 +32,29 @@ function Header(props) {
 
         <Ul isOpen={isOpen}>
           <Li>
-            <a href="#header">Home</a>
+            <a href="#header" onClick={handleClick}>
+              Home
+            </a>
           </Li>
           <Li>
-            <a href="#skills">Skills</a>
+            <a href="#skills" onClick={handleClick}>
+              Skills
+            </a>
           </Li>
           <Li>
-            <a href="#sectionAboutMe">About me</a>
+            <a href="#sectionAboutMe" onClick={handleClick}>
+              About me
+            </a>
           </Li>
           <Li>
-            <a href="#myWorks">My works</a>
+            <a href="#myWorks" onClick={handleClick}>
+              My works
+            </a>
           </Li>
           <LiContact>
-            <a href="#contact">Contact</a>
+            <a href="#contact" onClick={handleClick}>
+              Contact
+            </a>
           </LiContact>
         </Ul>
       </Nav>
