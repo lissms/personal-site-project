@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/personal-site-project/static/css/main.4f645f19.chunk.css",
-    "main.js": "/personal-site-project/static/js/main.ec9e59af.chunk.js",
-    "main.js.map": "/personal-site-project/static/js/main.ec9e59af.chunk.js.map",
+    "main.js": "/personal-site-project/static/js/main.ddfa09ac.chunk.js",
+    "main.js.map": "/personal-site-project/static/js/main.ddfa09ac.chunk.js.map",
     "runtime-main.js": "/personal-site-project/static/js/runtime-main.6db40615.js",
     "runtime-main.js.map": "/personal-site-project/static/js/runtime-main.6db40615.js.map",
     "static/js/2.3182ac24.chunk.js": "/personal-site-project/static/js/2.3182ac24.chunk.js",
@@ -22,13 +22,12 @@
     "static/media/js-green.d2d19d58.jpg": "/personal-site-project/static/media/js-green.d2d19d58.jpg",
     "static/media/js.0655fbe6.jpg": "/personal-site-project/static/media/js.0655fbe6.jpg",
     "static/media/lab-min.9903136b.jpg": "/personal-site-project/static/media/lab-min.9903136b.jpg",
+    "static/media/linkedin.3ffd62e1.png": "/personal-site-project/static/media/linkedin.3ffd62e1.png",
     "static/media/logo-white.89713b6b.svg": "/personal-site-project/static/media/logo-white.89713b6b.svg",
-    "static/media/logo.daaebbd6.svg": "/personal-site-project/static/media/logo.daaebbd6.svg",
     "static/media/lyon-min.4e168444.jpg": "/personal-site-project/static/media/lyon-min.4e168444.jpg",
     "static/media/madrid-min.9c882942.jpg": "/personal-site-project/static/media/madrid-min.9c882942.jpg",
     "static/media/my-firs-game.6fc9dbe6.jpg": "/personal-site-project/static/media/my-firs-game.6fc9dbe6.jpg",
     "static/media/my-website.b61facf2.jpg": "/personal-site-project/static/media/my-website.b61facf2.jpg",
-    "static/media/portadalink.c756a058.jpg": "/personal-site-project/static/media/portadalink.c756a058.jpg",
     "static/media/profile-cards.651b363f.jpg": "/personal-site-project/static/media/profile-cards.651b363f.jpg",
     "static/media/react-green.aa350a0a.jpg": "/personal-site-project/static/media/react-green.aa350a0a.jpg",
     "static/media/react.2967cf1e.jpg": "/personal-site-project/static/media/react.2967cf1e.jpg",
@@ -41,6 +40,6 @@
     "static/js/runtime-main.6db40615.js",
     "static/js/2.3182ac24.chunk.js",
     "static/css/main.4f645f19.chunk.css",
-    "static/js/main.ec9e59af.chunk.js"
+    "static/js/main.ddfa09ac.chunk.js"
   ]
 }
