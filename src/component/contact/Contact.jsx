@@ -3,6 +3,7 @@ import PropTypes from "prop-types";
 
 import {
   CoverPhotoLn,
+  ImgLinkdnContainer,
   ImgLinkdn,
   ContainerImgAndCover,
   ContainerLinkdn,
@@ -27,12 +28,15 @@ function Contact(props) {
       <ProfileLink>
         <ContainerImgAndCover>
           <CoverPhotoLn />
-          <ImgLinkdn />
+          <ImgLinkdnContainer>
+            <ImgLinkdn />
+          </ImgLinkdnContainer>
         </ContainerImgAndCover>
         <ContainerLinkdn>
           <Name>Lissandra Méndez</Name>
           <FrontenDeveloper>Frontend developer</FrontenDeveloper>
-          <University>Universidad de La Habama Adalab </University>
+          <University>Universidad de La Habama</University>
+          <University>Adalab</University>
           <LinkProfile href="https://www.linkedin.com/in/lissandramendezsanchez/" target="_blank">
             <ViewProfile>View Profile </ViewProfile>
           </LinkProfile>

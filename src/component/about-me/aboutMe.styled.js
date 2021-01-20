@@ -3,9 +3,10 @@ import { keyframes } from "styled-components";
 
 export const ItemH2 = styled.h2`
   font-family: Gugi;
-  font-size: 47px;
+  font-size: 44px;
+  font-weight: normal;
   line-height: 59px;
-  letter-spacing: 0.14em;
+  letter-spacing: 5px;
   color: #ffffff;
   text-transform: uppercase;
   @media (max-width: 480px) {
@@ -17,12 +18,16 @@ export const ItemP = styled.p`
   font-family: Gugi;
   font-size: 14px;
   line-height: 17px;
-  letter-spacing: 0.14em;
+  letter-spacing: 5px;
   color: #ffffff;
 `;
 
+export const ContainerText = styled.div`
+  width: 90%;
+`;
+
 export const ContainerItemH2 = styled.div`
-  width: 380px;
+  width: 100%;
   height: 101px;
   left: 51px;
   top: 1746px;
@@ -36,6 +41,6 @@ export const ContainerItemH2 = styled.div`
   z-index: 5;
   cursor: pointer;
   @media (max-width: 480px) {
-    width: 313px;
+    width: 100%;
   }
 `;

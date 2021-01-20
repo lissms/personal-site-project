@@ -7,7 +7,7 @@ function Footer() {
   return (
     <FooterDiv>
       <img src={logo} alt="logo" />
-      <Date>2020</Date>
+      <Date>2021</Date>
     </FooterDiv>
   );
 }

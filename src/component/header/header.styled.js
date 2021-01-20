@@ -215,7 +215,6 @@ export const Span = styled.span`
 `;
 export const ContainerH1 = styled.div`
   position: relative;
-  width: 400px;
 
   @media (min-width: 1200px) {
     &::before {

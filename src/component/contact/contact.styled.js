@@ -6,24 +6,20 @@ export const CoverPhotoLn = styled.div`
   height: 112px;
   background-image: url(${coverLink});
 `;
+export const ImgLinkdnContainer = styled.div`
+  display: flex;
+  justify-content: center;
+`;
 export const ImgLinkdn = styled.div`
   border: 8px solid #21687c;
   border-radius: 200px;
-  width: 161px;
-  height: 161px;
+  width: 120px;
+  height: 120px;
   background-image: url(${image});
   background-size: cover;
-  background-position: 168px -20px;
+  background-position: 120px -20px;
   position: absolute;
-  top: 19px;
-  left: 102px;
-  @media (max-width: 480px) {
-    width: 120px;
-    height: 120px;
-    background-position: 126px -20px;
-    top: 19px;
-    left: 70px;
-  }
+  bottom: -50%;
 `;
 export const ContainerImgAndCover = styled.div`
   position: relative;
@@ -31,22 +27,19 @@ export const ContainerImgAndCover = styled.div`
 export const ContainerLinkdn = styled.div`
   background: #21687c;
   border-radius: 4px;
-  margin: 25px;
-  padding: 0;
+  padding-bottom: 22px;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
 `;
 export const ProfileLink = styled.div`
-  width: 280px;
-  height: 514px;
+  width: 100%;
   background: #21687c;
   border-radius: 4px;
-  margin: 25px;
   padding: 0;
   @media (min-width: 768px) {
-    width: 389px;
+    width: 45%;
     margin-left: 10px;
   }
 `;
@@ -66,28 +59,32 @@ export const FrontenDeveloper = styled.h2`
   line-height: 26px;
   letter-spacing: 0.14em;
   color: #ffffff;
-  margin: 0;
+  margin: 0 0 16px 0;
 `;
 export const University = styled.p`
   font-family: Roboto;
   font-size: 17px;
   line-height: 20px;
   color: #ffffff;
-  width: 192px;
   text-align: center;
+  margin: 0;
+  padding: 0;
 `;
 export const ContainerSection = styled.div`
-  height: 684px;
   background: linear-gradient(79.06deg, #76f09b 0.81%, #073cb4 125.73%);
   display: flex;
   justify-content: space-around;
   align-items: center;
+  padding: 64px 32px;
+  box-sizing: border-box;
 
   @media (max-width: 480px) {
-    height: 1000px;
     width: 100%;
     flex-direction: column;
     justify-content: space-between;
+  }
+  @media (min-width: 1200px) {
+    padding: 64px 124px;
   }
 `;
 export const ViewProfile = styled.div`
@@ -107,21 +104,27 @@ export const LinkProfile = styled.a`
   font-size: 17px;
   line-height: 20px;
   color: #21687c;
+  margin-top: 16px;
 `;
 export const LinkedinLogo = styled.img`
   width: 116px;
   height: 64px;
 `;
 export const Form = styled.form`
-  height: 514px;
-  width: 389px;
   display: flex;
   flex-direction: column;
   justify-content: space-around;
   align-items: center;
+  margin-top: 32px;
+  width: 100%;
+
+  @media (min-width: 480px) {
+    width: 45%;
+    margin-top: 0;
+  }
 `;
 export const NameEmail = styled.input`
-  width: 280px;
+  width: 100%;
   height: 48px;
   background: #f4f4f4;
   border: 2px solid #21687c;
@@ -133,6 +136,7 @@ export const NameEmail = styled.input`
   font-weight: normal;
   font-size: 17px;
   line-height: 21px;
+  margin-bottom: 12px;
   &::-webkit-input-placeholder {
     color: #00c9b7;
   }
@@ -148,15 +152,9 @@ export const NameEmail = styled.input`
   &:-ms-input-placeholder {
     color: #00c9b7;
   }
-  @media (min-width: 480px) {
-    width: 320px;
-  }
-  @media (min-width: 768px) {
-    width: 320px;
-  }
 `;
 export const Messsage = styled.textarea`
-  width: 280px;
+  width: 100%;
   height: 267px;
   background: #f4f4f4;
   border: 2px solid #21687c;
@@ -166,6 +164,7 @@ export const Messsage = styled.textarea`
   font-size: 17px;
   line-height: 21px;
   padding: 25px;
+  margin-bottom: 12px;
 
   &::-webkit-input-placeholder {
     color: #00c9b7;
@@ -182,15 +181,9 @@ export const Messsage = styled.textarea`
   &:-ms-input-placeholder {
     color: #00c9b7;
   }
-  @media (min-width: 480px) {
-    width: 320px;
-  }
-  @media (min-width: 768px) {
-    width: 320px;
-  }
 `;
 export const Btn = styled.input`
-  width: 280px;
+  width: 100%;
   height: 48px;
   background: #76f09b;
   border-radius: 4px;
@@ -200,8 +193,5 @@ export const Btn = styled.input`
   font-size: 17px;
   line-height: 21px;
   color: #21687c;
-
-  @media (min-width: 768px) {
-    width: 320px;
-  }
+  border: 2px solid #21687c;
 `;

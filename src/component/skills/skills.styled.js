@@ -47,7 +47,6 @@ export const ContainerSkills = styled.div`
   }
 `;
 export const ShadowInTheEnd = styled.div`
-  display: none;
   @media (min-width: 1200px) {
     position: absolute;
     right: 0;
