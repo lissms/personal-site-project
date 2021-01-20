@@ -5,7 +5,7 @@ export const TitleTechnologies = styled.p`
   font-family: Gugi;
   font-size: 30px;
   line-height: 45px;
-  letter-spacing: 0.14em;
+  letter-spacing: 2px;
   margin: 0;
   text-align: center;
 

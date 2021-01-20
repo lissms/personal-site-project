@@ -23,11 +23,11 @@ export const NameWorksH2 = styled.h2`
   font-size: 34px;
   line-height: 35px;
   text-align: right;
-  letter-spacing: 0.12em;
+  letter-spacing: 2px;
   color: #1c2ed7;
   position: relative;
   padding: 25px 35px 0 0;
-  width: 284px;
+  width: 384px;
   margin: 0;
   float: right;
 `;
@@ -63,7 +63,7 @@ export const WebSiteTitle = styled.p`
   font-weight: normal;
   font-size: 30px;
   line-height: 37px;
-  letter-spacing: 0.14em;
+  letter-spacing: 2px;
   color: #ffffff;
 `;
 export const GithubIcon = styled.img`

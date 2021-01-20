@@ -16,7 +16,7 @@ export const SkillsH2 = styled.h2`
   font-weight: normal;
   font-size: 45px;
   line-height: 80px;
-  letter-spacing: 0.14em;
+  letter-spacing: 2px;
   color: #073cb4;
   border-bottom: dotted #073cb4 5px;
   @media (min-width: 768px) {
@@ -24,7 +24,7 @@ export const SkillsH2 = styled.h2`
     font-family: Gugi;
     font-size: 64px;
     line-height: 80px;
-    letter-spacing: 0.14em;
+    letter-spacing: 2px;
     text-transform: uppercase;
     text-align: end;
     color: #073cb4;

@@ -11,6 +11,7 @@ function Skills(props) {
       <TecnologiesContainer>
         <TechnologiesList title="languages" data={props.data.languages} />
         <TechnologiesList title="libraries" data={props.data.libraries} />
+        <TechnologiesList title="others" data={props.data.others} />
       </TecnologiesContainer>
       <ShadowInTheEnd />
     </ContainerSkills>

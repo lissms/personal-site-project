@@ -6,7 +6,7 @@ export const ItemH2 = styled.h2`
   font-size: 44px;
   font-weight: normal;
   line-height: 59px;
-  letter-spacing: 5px;
+  letter-spacing: 2px;
   color: #ffffff;
   text-transform: uppercase;
   @media (max-width: 480px) {
@@ -18,7 +18,7 @@ export const ItemP = styled.p`
   font-family: Gugi;
   font-size: 14px;
   line-height: 17px;
-  letter-spacing: 5px;
+  letter-spacing: 2px;
   color: #ffffff;
 `;
 

@@ -10,6 +10,7 @@ export const UL = styled.ul`
   grid-template-areas:
     "  uno" "dos" "tres"
     "cuatro" "cinco";
+
   @media all and (min-width: 1200px) {
     list-style: none;
     padding: 0;

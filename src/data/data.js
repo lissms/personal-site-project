@@ -8,8 +8,14 @@ import reactLogo from "../../src/images/react.jpg";
 import reactGreenLogo from "../../src/images/react-green.jpg";
 import sassLogo from "../../src/images/sass.jpg";
 import sassGreenLogo from "../../src/images/sass-green.jpg";
+import reduxGreenLogo from "../../src/images/redux-green.jpg";
+import reduxLogo from "../../src/images/redux.jpg";
+import reactRouterLogo from "../images/react-router.jpg";
+import reactRouterLogoGreen from "../images/react-router-green.jpg";
 import styledComponentsLogo from "../../src/images/styled-components.jpg";
 import styledComponentsGreenLogo from "../../src/images/styled-components-green.jpg";
+import gitGreenLogo from "../../src/images/git-green.jpg";
+import gitLogo from "../../src/images/git.jpg";
 import habana from "../../src/images/habana.jpg";
 import university from "../../src/images/university-min.jpg";
 import recherche from "../../src/images/lab-min.jpg";
@@ -22,6 +28,8 @@ import myFirsGameByJs from "../../src/images/my-firs-game.jpg";
 import myWebsite from "../../src/images/my-website.jpg";
 import github from "../../src/images/github.png";
 import profileCard from "../../src/images/profile-cards.jpg";
+import nodeLogo from "../../src/images/node.jpg";
+import nodeLogoGreen from "../../src/images/nodejs-green.jpg";
 
 const languages = [
   {
@@ -70,11 +78,34 @@ const libraries = [
     id: "sass3",
   },
   {
+    name: "react-router",
+    greenImageTechnologie: reactRouterLogoGreen,
+    imgeTechnologie: reactRouterLogo,
+    level: "junior",
+    id: "react-router4",
+  },
+  {
     name: "redux",
-    greenImageTechnologie: htmlGreenLogo,
-    imgeTechnologie: htmlLogo,
+    greenImageTechnologie: reduxGreenLogo,
+    imgeTechnologie: reduxLogo,
     level: "learning",
-    id: "redux2",
+    id: "redux5",
+  },
+];
+const others = [
+  {
+    name: "git",
+    greenImageTechnologie: gitGreenLogo,
+    imgeTechnologie: gitLogo,
+    level: "junior",
+    id: "react",
+  },
+  {
+    name: "nodejs",
+    greenImageTechnologie: nodeLogoGreen,
+    imgeTechnologie: nodeLogo,
+    level: "learning",
+    id: "styled-component2",
   },
 ];
 const aboutMeData = [
@@ -113,7 +144,7 @@ const aboutMeData = [
 
 const myWorks = [
   {
-    name: "My personal web site, you are here",
+    name: "My personal website",
     img: myWebsite,
     urlGithub: "https://github.com/lissms/personal-site-project",
     icoGithub: github,
@@ -162,6 +193,7 @@ const myWorks = [
 export default {
   languages: languages,
   libraries: libraries,
+  others: others,
   aboutMeData: aboutMeData,
   myWorks: myWorks,
 };

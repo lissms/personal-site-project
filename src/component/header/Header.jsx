@@ -14,7 +14,7 @@ import {
   Mousebutton,
   ContainerH1,
 } from "./header.styled";
-import logo from "./../../images/logo.svg";
+import logo from "./../../images/Logo.png";
 import Menu from "./Menu";
 
 function Header(props) {

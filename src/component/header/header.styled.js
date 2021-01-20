@@ -87,7 +87,7 @@ export const Li = styled.li`
     font-size: 24px;
     line-height: 30px;
     text-align: center;
-    letter-spacing: 0.14em;
+    letter-spacing: 2px;
     color: #ffffff;
     text-transform: uppercase;
     margin-bottom: 35px;
@@ -103,7 +103,7 @@ export const Li = styled.li`
       font-weight: normal;
       font-size: 18px;
       line-height: 22px;
-      letter-spacing: 0.14em;
+      letter-spacing: 2px;
       color: #073cb4;
       margin-bottom: 0;
     }
@@ -120,7 +120,7 @@ export const LiContact = styled.li`
     font-size: 24px;
     line-height: 30px;
     text-align: center;
-    letter-spacing: 0.14em;
+    letter-spacing: 2px;
     color: #ffffff;
     text-transform: uppercase;
   }
@@ -134,7 +134,7 @@ export const LiContact = styled.li`
       font-weight: normal;
       font-size: 18px;
       line-height: 22px;
-      letter-spacing: 0.14em;
+      letter-spacing: 2px;
       color: #073cb4;
       margin-bottom: 0;
       text-transform: uppercase;
@@ -188,7 +188,7 @@ export const H1 = styled.h1`
   font-size: 40px;
   line-height: 65px;
   text-align: center;
-  letter-spacing: 0.14em;
+  letter-spacing: 2px;
   color: #ffffff;
   padding: 0;
   margin: 0;

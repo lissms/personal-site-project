@@ -10,7 +10,7 @@ export const OtherWorks = styled.ul`
   grid-template-areas:
     "  uno" "dos" "tres"
     "cuatro" "cinco";
-  @media (min-width: 780px) {
+  @media (min-width: 1200px) {
     list-style: none;
     padding: 0;
     display: grid;

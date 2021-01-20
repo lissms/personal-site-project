@@ -1,10 +1,11 @@
 import styled from "styled-components";
-import coverLink from "../../images/portadalink.jpg";
+import coverLink from "../../images/linkedin.png";
 import image from "../../images/20201107_113153.jpg";
 
 export const CoverPhotoLn = styled.div`
   height: 112px;
   background-image: url(${coverLink});
+  background-size: cover;
 `;
 export const ImgLinkdnContainer = styled.div`
   display: flex;
@@ -49,7 +50,6 @@ export const Name = styled.p`
   margin-bottom: 0;
   font-size: 22px;
   line-height: 26px;
-
   color: #ffffff;
 `;
 export const FrontenDeveloper = styled.h2`
@@ -57,7 +57,7 @@ export const FrontenDeveloper = styled.h2`
   font-weight: bold;
   font-size: 22px;
   line-height: 26px;
-  letter-spacing: 0.14em;
+  letter-spacing: 2px;
   color: #ffffff;
   margin: 0 0 16px 0;
 `;
@@ -193,5 +193,7 @@ export const Btn = styled.input`
   font-size: 17px;
   line-height: 21px;
   color: #21687c;
-  border: 2px solid #21687c;
+  border: none;
+  -webkit-appearance: none;
+  -webkit-border-radius: none;
 `;

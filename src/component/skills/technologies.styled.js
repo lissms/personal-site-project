@@ -24,14 +24,14 @@ export const TechnologieName = styled.p`
   font-weight: normal;
   font-size: 18px;
   line-height: 25px;
-  letter-spacing: 0.14em;
+  letter-spacing: 2px;
   color: #76f09b;
 `;
 export const TechnologieLevel = styled.p`
   font-family: Gugi;
   font-size: 12px;
   line-height: 15px;
-  letter-spacing: 0.14em;
+  letter-spacing: 2px;
   color: #1c2ed7;
 `;
 

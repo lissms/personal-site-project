@@ -15,6 +15,6 @@ export const Date = styled.p`
   font-family: Gugi;
   font-size: 16px;
   line-height: 20px;
-  letter-spacing: 0.14em;
+  letter-spacing: 2px;
   color: #ffffff;
 `;
