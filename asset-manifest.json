@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/personal-site-project/static/css/main.e98656e1.chunk.css",
-    "main.js": "/personal-site-project/static/js/main.92a312ce.chunk.js",
-    "main.js.map": "/personal-site-project/static/js/main.92a312ce.chunk.js.map",
+    "main.css": "/personal-site-project/static/css/main.4f645f19.chunk.css",
+    "main.js": "/personal-site-project/static/js/main.ec9e59af.chunk.js",
+    "main.js.map": "/personal-site-project/static/js/main.ec9e59af.chunk.js.map",
     "runtime-main.js": "/personal-site-project/static/js/runtime-main.6db40615.js",
     "runtime-main.js.map": "/personal-site-project/static/js/runtime-main.6db40615.js.map",
     "static/js/2.3182ac24.chunk.js": "/personal-site-project/static/js/2.3182ac24.chunk.js",
     "static/js/2.3182ac24.chunk.js.map": "/personal-site-project/static/js/2.3182ac24.chunk.js.map",
     "index.html": "/personal-site-project/index.html",
-    "static/css/main.e98656e1.chunk.css.map": "/personal-site-project/static/css/main.e98656e1.chunk.css.map",
+    "static/css/main.4f645f19.chunk.css.map": "/personal-site-project/static/css/main.4f645f19.chunk.css.map",
     "static/js/2.3182ac24.chunk.js.LICENSE.txt": "/personal-site-project/static/js/2.3182ac24.chunk.js.LICENSE.txt",
     "static/media/20201107_113153.ba848032.jpg": "/personal-site-project/static/media/20201107_113153.ba848032.jpg",
     "static/media/Linkedin-Logo.a0db01c0.png": "/personal-site-project/static/media/Linkedin-Logo.a0db01c0.png",
@@ -40,7 +40,7 @@
   "entrypoints": [
     "static/js/runtime-main.6db40615.js",
     "static/js/2.3182ac24.chunk.js",
-    "static/css/main.e98656e1.chunk.css",
-    "static/js/main.92a312ce.chunk.js"
+    "static/css/main.4f645f19.chunk.css",
+    "static/js/main.ec9e59af.chunk.js"
   ]
 }
