@@ -13,7 +13,7 @@ function App() {
       <Header />
       <Skills data={data} />
       <SectionAboutMe data={data} />
-      <MyWorks data={data} />
+      {/* <MyWorks data={data} /> */}
       <Contact />
       <Footer id="footer" />
     </>

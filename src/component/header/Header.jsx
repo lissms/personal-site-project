@@ -52,7 +52,9 @@ function Header(props) {
         <PersonalImage title="My personal image"></PersonalImage>
         <ContainerH1>
           <H1>
-            <Span>Frontend</Span> developer
+            <Span>Frontend</Span>
+            <br />
+            developer
           </H1>
         </ContainerH1>
       </ContainerImgH1>

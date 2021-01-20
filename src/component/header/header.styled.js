@@ -13,11 +13,11 @@ export const HeaderContainer = styled.header`
   height: 100vh;
   background-size: cover;
   background-image: linear-gradient(194.08deg, rgba(118, 240, 155, 0.67) 0%, rgba(7, 60, 180, 0.67) 92.96%),
-    url(/static/media/backgroundHeader.5d760ca6.jpg);
+    url(${background});
   margin: 0;
   @media (min-width: 1200px) {
     background-image: linear-gradient(229.32deg, rgba(150, 237, 163, 0.78) 45.51%, rgba(7, 60, 180, 0.78) 118.95%),
-      url(/static/media/backgroundHeader.5d760ca6.jpg);
+      url(${background});
   }
 `;
 export const Logo = styled.img`
