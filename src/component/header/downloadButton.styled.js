@@ -6,8 +6,8 @@ export const ButtonContainer = styled.div`
   height: 70px;
   border-radius: 40px;
   position: absolute;
-  bottom: 8px;
-  right: 8px;
+  bottom: 16px;
+  right: 16px;
   cursor: pointer;
   transition: width 0.5s ease-in-out;
   z-index: 1;

@@ -20,7 +20,7 @@ import logo from "./../../images/Logo.png";
 import Menu from "./Menu";
 import DownloadButton from "./DownloadButton";
 
-function Header(props) {
+function Header() {
   const [isOpen, setIsOpen] = useState(true);
 
   const handleClick = () => {
@@ -78,9 +78,9 @@ function Header(props) {
       <Mouse>
         <Mousebutton />
       </Mouse>
-      <MobileHidden>
+      {/* <MobileHidden>
         <DownloadButton />
-      </MobileHidden>
+      </MobileHidden> */}
     </HeaderContainer>
   );
 }
