@@ -20,7 +20,7 @@ import logo from "./../../images/Logo.png";
 import Menu from "./Menu";
 import DownloadButton from "./DownloadButton";
 
-function Header() {
+function Header(props) {
   const [isOpen, setIsOpen] = useState(true);
 
   const handleClick = () => {
@@ -58,9 +58,9 @@ function Header() {
               Contact
             </a>
           </LiContact>
-          <MobileShown>
+          {/* <MobileShown>
             <DownloadButton />
-          </MobileShown>
+          </MobileShown> */}
         </Ul>
       </Nav>
 
@@ -78,9 +78,9 @@ function Header() {
       <Mouse>
         <Mousebutton />
       </Mouse>
-      {/* <MobileHidden>
+      <MobileHidden>
         <DownloadButton />
-      </MobileHidden> */}
+      </MobileHidden>
     </HeaderContainer>
   );
 }
