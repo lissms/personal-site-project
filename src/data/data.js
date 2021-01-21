@@ -18,7 +18,7 @@ import gitGreenLogo from "../../src/images/git-green.jpg";
 import gitLogo from "../../src/images/git.jpg";
 import habana from "../../src/images/habana.jpg";
 import university from "../../src/images/university-min.jpg";
-import recherche from "../../src/images/lab-min.jpg";
+import research from "../../src/images/lab-min.jpg";
 import lyon from "../../src/images/lyon-min.jpg";
 import madrid from "../../src/images/madrid-min.jpg";
 import adalab from "../../src/images/adalab-min.jpg";
@@ -120,8 +120,8 @@ const aboutMeData = [
     message: "I studied Microbiology at the University of Havana. ",
   },
   {
-    name: "Recherche",
-    img: recherche,
+    name: "Research",
+    img: research,
     message:
       "My first passion. I was part of a research project team looking to find a vaccine that would prevent cancer. ",
   },
@@ -138,7 +138,7 @@ const aboutMeData = [
   {
     name: "Adalab",
     img: adalab,
-    message: "Here I found my new passion, Frontend Develoment",
+    message: "Here I found my new passion, Frontend Development",
   },
 ];
 

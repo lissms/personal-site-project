@@ -12,10 +12,15 @@ export const HeaderContainer = styled.header`
   width: 100%;
   height: 100vh;
   background-size: cover;
+  background-position: -100% 0;
   background-image: linear-gradient(194.08deg, rgba(118, 240, 155, 0.67) 0%, rgba(7, 60, 180, 0.67) 92.96%),
     url(${background});
   margin: 0;
+  @media (min-width: 768px) {
+    background-position: -125% 0;
+  }
   @media (min-width: 1200px) {
+    background-position: 0 0;
     background-image: linear-gradient(229.32deg, rgba(150, 237, 163, 0.78) 45.51%, rgba(7, 60, 180, 0.78) 118.95%),
       url(${background});
   }
@@ -163,11 +168,12 @@ export const ContainerImgH1 = styled.div`
 export const PersonalImage = styled.div`
   background-image: url(${personalImage});
   border-radius: 50%;
-  width: 224px;
-  height: 224px;
+  width: 200px;
+  height: 200px;
   border: 10px #76f09b solid;
   border: 10px #76f09b solid;
   background-position: left;
+
   @media (min-width: 768px) {
     width: 300px;
     height: 300px;
@@ -177,7 +183,6 @@ export const PersonalImage = styled.div`
     height: 316px;
     border: 10px #76f09b solid;
     border: 10px #76f09b solid;
-    background-position: left;
   }
 `;
 
@@ -185,8 +190,8 @@ export const H1 = styled.h1`
   font-family: Gugi;
   font-style: normal;
   font-weight: normal;
-  font-size: 40px;
-  line-height: 65px;
+  font-size: 24px;
+  line-height: 44px;
   text-align: center;
   letter-spacing: 2px;
   color: #ffffff;
@@ -194,6 +199,7 @@ export const H1 = styled.h1`
   margin: 0;
 
   @media (min-width: 768px) {
+    line-height: 65px;
     font-size: 48px;
     line-height: 1.5;
   }
@@ -206,8 +212,12 @@ export const H1 = styled.h1`
 
 export const Span = styled.span`
   text-transform: uppercase;
-  font-size: 52px;
+  font-size: 48px;
 
+  @media (min-width: 768px) {
+    font-size: 52px;
+    margin-bottom: 12px;
+  }
   @media (min-width: 768px) {
     font-size: 64px;
     margin-bottom: 12px;
@@ -231,11 +241,14 @@ export const ContainerH1 = styled.div`
 
 const animationMouse = keyframes`
  0% {  
-  transform: translateY(-30px);}
-  50%{ 
-    transform: translateY(-10px);;}
-  100% {  
-    transform: translateY(-30px);}
+  transform: translateY(-30px) scale(0.6);
+}
+50%{ 
+    transform: translateY(-10px) scale(0.6);
+  }
+100% {  
+    transform: translateY(-30px) scale(0.6);
+  }
  
 `;
 
@@ -244,7 +257,7 @@ export const Mouse = styled.div`
   @media (min-width: 1200px) {
     display: flex;
     position: absolute;
-    bottom: 32px;
+    bottom: -12px;
     justify-content: center;
     align-items: flex-start;
     border: 5px solid #ffffff;
@@ -278,6 +291,23 @@ export const MenuMovil = styled.div`
   color: #36677a;
   text-transform: uppercase;
   @media (min-width: 768px) {
+    display: none;
+  }
+`;
+
+export const MobileHidden = styled.div`
+  @media (max-width: 479px) {
+    display: none;
+  }
+  @media (min-width: 480x) {
+    display: block;
+  }
+`;
+export const MobileShown = styled.div`
+  @media (max-width: 479px) {
+    display: block;
+  }
+  @media (min-width: 480px) {
     display: none;
   }
 `;

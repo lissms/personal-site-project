@@ -36,7 +36,7 @@ export const ContainerSkills = styled.div`
   flex-direction: column;
   justify-content: center;
   margin: 0px;
-  padding: 16px;
+  padding: 16px 32px;
 
   @media (min-width: 768px) {
     position: relative;

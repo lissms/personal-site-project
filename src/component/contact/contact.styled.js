@@ -6,6 +6,7 @@ export const CoverPhotoLn = styled.div`
   height: 112px;
   background-image: url(${coverLink});
   background-size: cover;
+  border-radius: 4px 4px 0 0;
 `;
 export const ImgLinkdnContainer = styled.div`
   display: flex;

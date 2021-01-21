@@ -11,6 +11,7 @@ export const ContainerProjectsDiv = styled.div`
     position: absolute;
     top: 0;
     left: 0;
+    border-radius: 4px;
     width: 100%;
     height: 100%;
     background-color: rgba(118, 240, 155, 0.8);

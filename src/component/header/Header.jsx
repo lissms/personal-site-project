@@ -13,6 +13,8 @@ import {
   Mouse,
   Mousebutton,
   ContainerH1,
+  MobileHidden,
+  MobileShown,
 } from "./header.styled";
 import logo from "./../../images/Logo.png";
 import Menu from "./Menu";
@@ -56,6 +58,9 @@ function Header(props) {
               Contact
             </a>
           </LiContact>
+          <MobileShown>
+            <DownloadButton />
+          </MobileShown>
         </Ul>
       </Nav>
 
@@ -63,9 +68,9 @@ function Header(props) {
         <PersonalImage title="My personal image"></PersonalImage>
         <ContainerH1>
           <H1>
-            <Span>Frontend</Span>
+            <Span>Lissandra</Span>
             <br />
-            developer
+            frontend developer
           </H1>
         </ContainerH1>
       </ContainerImgH1>
@@ -73,7 +78,9 @@ function Header(props) {
       <Mouse>
         <Mousebutton />
       </Mouse>
-      <DownloadButton />
+      <MobileHidden>
+        <DownloadButton />
+      </MobileHidden>
     </HeaderContainer>
   );
 }
