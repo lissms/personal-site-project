@@ -6,8 +6,14 @@ export const SkillsDiv = styled.div`
     height: 163px;
     transform: rotate(-90deg);
     position: absolute;
-    top: 45vh;
+    top: 38vh;
     left: -281px;
+  }
+  @media (min-width: 1024px) {
+    top: 31vh;
+  }
+  @media (min-width: 1200px) {
+    top: 45vh;
   }
 `;
 export const SkillsH2 = styled.h2`
@@ -29,6 +35,7 @@ export const SkillsH2 = styled.h2`
     text-transform: uppercase;
     text-align: end;
     color: #073cb4;
+    margin: 54px 0;
   }
 `;
 

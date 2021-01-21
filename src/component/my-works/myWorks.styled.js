@@ -45,7 +45,7 @@ export const ButtonOtherProject = styled.div`
     background-color: #073cb4;
     z-index: 10;
     position: absolute;
-    bottom: 5%;
+    bottom: 3%;
     right: 10%;
     transform: rotate(90deg);
     justify-content: center;

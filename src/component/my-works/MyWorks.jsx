@@ -6,7 +6,7 @@ import MyWorksList from "./MyWorksList";
 import MyWorksListOtherWorks from "./MyWorksListOtherWorks";
 
 function MyWorks(props) {
-  const [hasFlag, setHasFlag] = useState(true);
+  const [hasFlag, setHasFlag] = useState(false);
 
   const handlerFWork = () => {
     setHasFlag(hasFlag ? false : true);
