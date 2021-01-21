@@ -19,7 +19,7 @@ export const HeaderContainer = styled.header`
   @media (min-width: 768px) {
     background-position: -125% 0;
   }
-  @media (min-width: 1200px) {
+  @media (min-width: 1024px) {
     background-position: 0 0;
     background-image: linear-gradient(229.32deg, rgba(150, 237, 163, 0.78) 45.51%, rgba(7, 60, 180, 0.78) 118.95%),
       url(${background});

@@ -6,7 +6,7 @@ export const SkillsDiv = styled.div`
     height: 163px;
     transform: rotate(-90deg);
     position: absolute;
-    top: 309px;
+    top: 45vh;
     left: -281px;
   }
 `;
@@ -19,11 +19,12 @@ export const SkillsH2 = styled.h2`
   letter-spacing: 2px;
   color: #073cb4;
   border-bottom: dotted #073cb4 5px;
+  margin: 0 0 32px 0;
+
   @media (min-width: 768px) {
     border-bottom: none;
     font-family: Gugi;
     font-size: 64px;
-    line-height: 80px;
     letter-spacing: 2px;
     text-transform: uppercase;
     text-align: end;
@@ -36,14 +37,14 @@ export const ContainerSkills = styled.div`
   flex-direction: column;
   justify-content: center;
   margin: 0px;
-  padding: 16px 32px;
+  padding: 12vh 24px 16px;
 
   @media (min-width: 768px) {
     position: relative;
     display: flex;
     justify-content: flex-start;
     margin: 0px;
-    padding: 50px;
+    padding: 12vh 50px 50px;
   }
 `;
 export const ShadowInTheEnd = styled.div`
