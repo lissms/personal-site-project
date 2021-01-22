@@ -1,15 +1,22 @@
-import logo from "./logo.svg";
-import "./App.css";
-import cv from "./Frontend_Developer-CV_Lissandra_Mendez_Sanchez.pdf";
+import React from "react";
+import SectionAboutMe from "./component/about-me/SectionAboutMe";
+import Header from "./component/header/Header";
+import MyWorks from "./component/my-works/MyWorks";
+import Skills from "./component/skills/Skills";
+import data from "./data/data";
+import Contact from "./component/contact/Contact";
+import Footer from "./component/footer/Footer";
 
 function App() {
   return (
-    <div className="App">
-      <img src={logo} className="App-logo" alt="logo" />
-      <h1>My personal website</h1>
-      <a href={cv}>Download my CV</a>
-      <h2>Coming soon!</h2>
-    </div>
+    <>
+      <Header />
+      <Skills data={data} />
+      <SectionAboutMe data={data} />
+      <MyWorks data={data} />
+      <Contact />
+      <Footer id="footer" />
+    </>
   );
 }
 
