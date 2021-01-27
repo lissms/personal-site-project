@@ -35,7 +35,7 @@ function Contact(props) {
         <ContainerLinkdn>
           <Name>Lissandra Méndez</Name>
           <FrontenDeveloper>Frontend developer</FrontenDeveloper>
-          <University>Universidad de La Habama</University>
+          <University>Universidad de La Habana</University>
           <University>Adalab</University>
           <LinkProfile href="https://www.linkedin.com/in/lissandramendezsanchez/" target="_blank">
             <ViewProfile>View Profile </ViewProfile>

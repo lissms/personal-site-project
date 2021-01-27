@@ -186,7 +186,7 @@ const myWorks = [
     icoGithub: github,
     id: "cinco",
     web: "web app",
-    urlweb: "https://beta.adalab.es/project-promo-k-module-3-team-7/#/",
+    urlweb: "http://bmatillavaras.github.io/project-promo-k-module-3-team-7/",
   },
 ];
 
