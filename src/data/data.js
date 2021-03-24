@@ -168,7 +168,7 @@ const myWorks = [
     icoGithub: github,
     id: "tres",
     web: "web app",
-    urlweb: "https://beta.adalab.es/modulo-2-evaluacion-final-lissms/",
+    urlweb: "https://lissms.github.io/modulo-2-evaluacion-final-lissms/.",
   },
   {
     name: "Rick and morty",
