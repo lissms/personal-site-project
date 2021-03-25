@@ -30,6 +30,7 @@ import github from "../../src/images/github.png";
 import profileCard from "../../src/images/profile-cards.jpg";
 import nodeLogo from "../../src/images/node.jpg";
 import nodeLogoGreen from "../../src/images/nodejs-green.jpg";
+import number from "../../src/images/number.jpg";
 
 const languages = [
   {
@@ -187,6 +188,15 @@ const myWorks = [
     id: "cinco",
     web: "web app",
     urlweb: "http://bmatillavaras.github.io/project-promo-k-module-3-team-7/",
+  },
+  {
+    name: "Adivina el número",
+    img: number,
+    urlGithub: "https://github.com/lissms/modulo-2-evaluacion-intermedia-lissms",
+    icoGithub: github,
+    id: "seis",
+    web: "web app",
+    urlweb: "http://lissms.github.io/modulo-2-evaluacion-intermedia-lissms/",
   },
 ];
 

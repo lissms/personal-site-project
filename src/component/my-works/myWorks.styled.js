@@ -1,5 +1,5 @@
 import styled from "styled-components";
-import { keyframes } from "styled-components";
+/* import { keyframes } from "styled-components"; */
 
 export const MyWorksContainer = styled.div`
   display: flex;
@@ -24,7 +24,7 @@ export const MyWorksContainer = styled.div`
     margin-bottom: 50px;
   }
 `;
-
+/* 
 const animationButton = keyframes`
  0% {  
     left: -4px;}
@@ -34,7 +34,7 @@ const animationButton = keyframes`
     left: -4px;}
 
  
-`;
+`; */
 export const ButtonOtherProject = styled.div`
   display: none;
   @media all and (min-width: 1200px) {

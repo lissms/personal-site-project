@@ -5,12 +5,12 @@ export const OtherWorks = styled.ul`
   padding: 0;
   display: grid;
   grid-template-columns: 1fr;
-  grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
   grid-gap: 35px;
   margin: 0;
   grid-template-areas:
     "  uno" "dos" "tres"
-    "cuatro" "cinco";
+    "cuatro" "cinco" "seis";
   @media (min-width: 1200px) {
     list-style: none;
     padding: 0;
@@ -19,7 +19,7 @@ export const OtherWorks = styled.ul`
     grid-template-rows: 1fr 1fr;
     grid-template-areas:
       "dos dos dos tres tres uno uno uno"
-      "cuatro cuatro cuatro cinco cinco seis seis seis";
+      "seis seis seis cinco cinco cuatro cuatro cuatro";
   }
 `;
 export const Li = styled.li`
