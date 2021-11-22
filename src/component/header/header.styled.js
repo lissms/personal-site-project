@@ -1,6 +1,6 @@
 import styled from "styled-components";
-import personalImage from "./../../images/20201107_113153.jpg";
-import background from "./../../images/backgroundHeader.jpg";
+import personalImage from "./../../images/portada.jpg";
+import background from "./../../images/backgroun-liss.png";
 import { keyframes } from "styled-components";
 
 export const HeaderContainer = styled.header`
@@ -17,7 +17,7 @@ export const HeaderContainer = styled.header`
     url(${background});
   margin: 0;
   @media (min-width: 768px) {
-    background-position: -125% 0;
+    background-position: -255% 0;
   }
   @media (min-width: 1024px) {
     background-position: 0 0;
