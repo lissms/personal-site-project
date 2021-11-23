@@ -54,7 +54,7 @@ export const ShadowInTheEnd = styled.div`
     top: 0;
     background: linear-gradient(270deg, #ffffff 72.16%, rgba(255, 255, 255, 0) 100%);
     width: 140px;
-    height: 861px;
+    height: 431px;
     z-index: 1;
   }
 `;

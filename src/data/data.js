@@ -28,6 +28,7 @@ import madrid from "../../src/images/madrid-min.jpg";
 import adalab from "../../src/images/adalab-min.jpg";
 import series from "../../src/images/series.jpg";
 import rickAndMorty from "../../src/images/rick-and-morty.jpg";
+import userManager from "../../src/images/gestion-de-usuario.png";
 import myFirsGameByJs from "../../src/images/my-firs-game.jpg";
 import myWebsite from "../../src/images/my-website.jpg";
 import github from "../../src/images/github.png";
@@ -165,11 +166,20 @@ const myWorks = [
     urlweb: "https://lissa.website/",
   },
   {
+    name: "User manager",
+    img: userManager,
+    urlGithub: "https://github.com/lissms/user-crud",
+    icoGithub: github,
+    id: "dos",
+    web: "web app",
+    urlweb: "https://lissms.github.io/user-crud/#/",
+  },
+  {
     name: "My first game with JS",
     img: myFirsGameByJs,
     urlGithub: "https://github.com/lissms/my-firs-game-by-js",
     icoGithub: github,
-    id: "dos",
+    id: "tres",
     web: "web app",
     urlweb: "https://lissms.github.io/my-firs-game-by-js/",
   },
@@ -178,7 +188,7 @@ const myWorks = [
     img: series,
     urlGithub: "https://github.com/lissms/modulo-2-evaluacion-final-lissms",
     icoGithub: github,
-    id: "tres",
+    id: "cuatro",
     web: "web app",
     urlweb: "https://lissms.github.io/modulo-2-evaluacion-final-lissms/.",
   },
@@ -187,7 +197,7 @@ const myWorks = [
     img: rickAndMorty,
     urlGithub: "https://github.com/lissms/modulo-3-evaluacion-final-lissms",
     icoGithub: github,
-    id: "cuatro",
+    id: "cinco",
     web: "web app",
     urlweb: "https://lissms.github.io/modulo-3-evaluacion-final-lissms/#/",
   },
@@ -196,7 +206,7 @@ const myWorks = [
     img: profileCard,
     urlGithub: "https://github.com/Adalab/project-promo-k-module-3-team-7",
     icoGithub: github,
-    id: "cinco",
+    id: "seis",
     web: "web app",
     urlweb: "http://bmatillavaras.github.io/project-promo-k-module-3-team-7/",
   },
@@ -205,7 +215,7 @@ const myWorks = [
     img: number,
     urlGithub: "https://github.com/lissms/modulo-2-evaluacion-intermedia-lissms",
     icoGithub: github,
-    id: "seis",
+    id: "siete",
     web: "web app",
     urlweb: "http://lissms.github.io/modulo-2-evaluacion-intermedia-lissms/",
   },
