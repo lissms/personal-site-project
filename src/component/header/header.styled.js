@@ -1,5 +1,5 @@
 import styled from "styled-components";
-import personalImage from "./../../images/portada.jpg";
+import personalImage from "./../../images/20201107_113153.jpg";
 import background from "./../../images/backgroun-liss.png";
 import { keyframes } from "styled-components";
 

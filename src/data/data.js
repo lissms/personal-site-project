@@ -10,6 +10,10 @@ import sassLogo from "../../src/images/sass.jpg";
 import sassGreenLogo from "../../src/images/sass-green.jpg";
 import reduxGreenLogo from "../../src/images/redux-green.jpg";
 import reduxLogo from "../../src/images/redux.jpg";
+import typescriptGreenLogo from "../../src/images/typescript-green.jpeg";
+import typescriptLogo from "../../src/images/typescript-original.jpeg";
+import materialGreenLogo from "../../src/images/material-ui-green.jpeg";
+import materialLogo from "../../src/images/material-ui-original.jpeg";
 import reactRouterLogo from "../images/react-router.jpg";
 import reactRouterLogoGreen from "../images/react-router-green.jpg";
 import styledComponentsLogo from "../../src/images/styled-components.jpg";
@@ -54,6 +58,13 @@ const languages = [
     level: "junior",
     id: "Javascript3",
   },
+  {
+    name: "typescript",
+    greenImageTechnologie: typescriptGreenLogo,
+    imgeTechnologie: typescriptLogo,
+    level: "junior",
+    id: "typescript",
+  },
 ];
 
 const libraries = [
@@ -68,6 +79,13 @@ const libraries = [
     name: "styled-components",
     greenImageTechnologie: styledComponentsGreenLogo,
     imgeTechnologie: styledComponentsLogo,
+    level: "junior",
+    id: "styled-component2",
+  },
+  {
+    name: "material-ui",
+    greenImageTechnologie: materialGreenLogo,
+    imgeTechnologie: materialLogo,
     level: "junior",
     id: "styled-component2",
   },
@@ -100,13 +118,6 @@ const others = [
     imgeTechnologie: gitLogo,
     level: "junior",
     id: "react",
-  },
-  {
-    name: "nodejs",
-    greenImageTechnologie: nodeLogoGreen,
-    imgeTechnologie: nodeLogo,
-    level: "learning",
-    id: "styled-component2",
   },
 ];
 const aboutMeData = [

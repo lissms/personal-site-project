@@ -6,6 +6,7 @@ import Skills from "./component/skills/Skills";
 import data from "./data/data";
 import Contact from "./component/contact/Contact";
 import Footer from "./component/footer/Footer";
+import MyProject from "./component/my-projects/MyProject";
 
 function App() {
   return (
@@ -13,7 +14,8 @@ function App() {
       <Header />
       <Skills data={data} />
       <SectionAboutMe data={data} />
-      <MyWorks data={data} />
+      <MyProject data={data}/>
+     {/*  <MyWorks data={data} /> */}
       <Contact />
       <Footer id="footer" />
     </>
