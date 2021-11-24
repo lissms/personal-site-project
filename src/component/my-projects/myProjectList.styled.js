@@ -14,6 +14,10 @@ export const Item = styled.div`
  `;
 
 export const SliderContainer = styled.div` 
+@media all and (max-width: 1200px){
+   display: none;
+  } 
+
 
 & .cuwwaO button {
  color: #76f09b;

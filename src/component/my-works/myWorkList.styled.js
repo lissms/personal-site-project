@@ -12,16 +12,9 @@ export const UL = styled.ul`
     "cuatro" "cinco" "seis" "siete";
 
   @media all and (min-width: 1200px) {
-    list-style: none;
-    padding: 0;
-    display: grid;
-    grid-template-columns: 160px 160px 160px 160px 160px 160px 160px 160px 160px;
-    grid-template-rows: 1fr 1fr;
-    grid-gap: 35px;
-    grid-template-areas:
-      "  uno uno dos dos dos tres tres tres"
-      "cuatro cuatro cuatro cinco cinco seis seis seis siete siete";
+   display: none;
   }
+  
 `;
 export const Li = styled.li`
   grid-area: ${(props) => `${props.id}`};

@@ -14,11 +14,8 @@ function MyProject(props) {
         <SkillsH2>My works</SkillsH2>
       </SkillsDiv>
       <MyWorksContainer>
-    { window.innerWidth > 1200 ?
-       ( <MyProjectLis data={props.data.myWorks} />) :
-       ( <MyWorksList data={props.data.myWorks} />)}
-
-
+        <MyProjectLis data={props.data.myWorks} />
+       <MyWorksList data={props.data.myWorks} />
       </MyWorksContainer>
   <ShadowInTheEnd /> 
     </ContainerSkills>
